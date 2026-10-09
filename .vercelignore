@@ -1,0 +1,24 @@
+# Lo que nunca debe subirse a Vercel con `vercel deploy` (la CLI no usa .gitignore).
+# Credenciales y enlaces locales de cada edición
+.impulsia-secrets/
+.env
+.env.*
+!.env.example
+.vercel/
+.supabase/
+supabase/.temp/
+supabase/.branches/
+
+# Carpetas de clientes (accesos referenciados, marca original, notas internas)
+clientes/
+
+# Documentos internos de la empresa
+*.docx
+*.pdf
+*.pptx
+
+# Artefactos locales
+.next/
+node_modules/
+coverage/
+*.tsbuildinfo

@@ -1,0 +1,315 @@
+{
+  "assistantName": "Claudia Álvarez",
+  "founder": {
+    "name": "Martín Barrera",
+    "role": "FDE de ImpulsIA, a cargo del diagnóstico, la cotización y la implementación de cada proyecto",
+    "summary": "Perfil que une negocio, operaciones y tecnología: MBA en Administración Estratégica, técnico en Administración de Empresas mención Finanzas y estudiante de Ingeniería Civil Industrial. Lidera operaciones logísticas en el sector salud (operativos en terreno en decenas de comunas y miles de pacientes al mes), tiene experiencia comercial en postventa automotriz y en canal digital de retail, y fundó una empresa de frutos secos. Diseña y dirige la construcción de sistemas, integraciones y automatizaciones usando IA como copiloto técnico. Por eso parte por el proceso real y su costo, y entrega soluciones medibles que funcionan en la práctica."
+  },
+  "experience": [
+    {
+      "title": "Integraciones con laboratorios clínicos",
+      "context": "En el sector salud, órdenes y resultados de exámenes viajan entre sistemas clínicos y laboratorios que no se hablan entre sí, con traspasos manuales y riesgo de error.",
+      "built": "Integraciones entre sistemas y laboratorios usando el estándar clínico HL7, webhooks y APIs, para que órdenes, resultados y estados fluyan automáticamente y con trazabilidad.",
+      "outcome": "Menos digitación manual y menos errores de traspaso, con información disponible a tiempo para el equipo.",
+      "relevantWhen": [
+        "laboratorio",
+        "exámenes",
+        "resultados",
+        "HL7",
+        "clínica",
+        "salud",
+        "integrar sistemas",
+        "API",
+        "webservice",
+        "doble digitación"
+      ]
+    },
+    {
+      "title": "Plataforma de gestión de operativos en salud",
+      "context": "Una organización de salud que coordina operativos en distintas comunas, con equipos, agenda y recursos que se manejaban en planillas y mensajes.",
+      "built": "Una plataforma web con agenda de operativos por comuna, asignación de personal y estado de cada operativo, más un dashboard de resultados operacionales (EBITDA) comparado mes a mes.",
+      "outcome": "La coordinación quedó centralizada y la gerencia ve el resultado económico de la operación sin armar reportes a mano.",
+      "relevantWhen": [
+        "agenda",
+        "turnos",
+        "coordinar equipos",
+        "terreno",
+        "planillas",
+        "reportes manuales",
+        "dashboard",
+        "indicadores"
+      ]
+    },
+    {
+      "title": "Integraciones con AgendaPro",
+      "context": "Negocios de salud y servicios que agendan en AgendaPro y necesitan que esa agenda converse con sus otros procesos.",
+      "built": "Integraciones con AgendaPro para conectar citas y pacientes o clientes con otros sistemas y automatizar lo que ocurre alrededor de la agenda (avisos, registros y seguimiento).",
+      "outcome": "Menos traspaso manual de información entre la agenda y el resto de la operación.",
+      "relevantWhen": [
+        "AgendaPro",
+        "agenda",
+        "citas",
+        "reservas",
+        "horas",
+        "confirmaciones",
+        "recordatorios",
+        "pacientes"
+      ]
+    },
+    {
+      "title": "Páginas de postservicio para entrega de exámenes",
+      "context": "Después de la atención, los pacientes necesitan recibir sus resultados de forma simple y segura, sin llamadas ni retiros presenciales.",
+      "built": "Páginas de postservicio donde el paciente accede a la entrega de sus exámenes, conectadas con los sistemas que generan los resultados.",
+      "outcome": "Una mejor experiencia para el paciente y menos carga para el equipo de atención.",
+      "relevantWhen": [
+        "resultados",
+        "entrega de exámenes",
+        "postventa",
+        "postservicio",
+        "portal de clientes",
+        "pacientes",
+        "experiencia del cliente"
+      ]
+    },
+    {
+      "title": "Empresa propia de frutos secos (retail)",
+      "context": "Martín fundó y opera una empresa de venta de frutos secos, con tiendas, caja, inventario a granel, proveedores y clientes.",
+      "built": "La gestión de tiendas con ERP y CRM: ventas y cajas, stock, compras, clientes y seguimiento comercial; de esa experiencia nace FrutoFlow, un sistema propio de punto de venta, inventario por lotes y a granel, reportería de margen y documentos del SII, usable desde computador, tablet o teléfono (en desarrollo).",
+      "outcome": "Conoce en primera persona los dolores del comercio: caja desconectada, stock incierto, margen desconocido y clientes sin seguimiento.",
+      "relevantWhen": [
+        "tienda",
+        "retail",
+        "comercio",
+        "ERP",
+        "CRM",
+        "inventario",
+        "stock",
+        "caja",
+        "punto de venta",
+        "margen",
+        "proveedores",
+        "boletas",
+        "sucursales"
+      ]
+    },
+    {
+      "title": "Auditoría automática de documentos de cobro",
+      "context": "Una operación de salud recibía miles de comprobantes de cobro en PDF que se revisaban a mano, con riesgo de duplicados y cobros mal hechos.",
+      "built": "Un proceso automático que lee cada PDF, extrae folio, fecha y montos, detecta duplicados y cobros repetidos, controla plazos de corrección y genera un informe ejecutivo; vigila una carpeta y procesa solo lo nuevo.",
+      "outcome": "Se auditaron cerca de 7.600 documentos y aparecieron casos duplicados que a mano no se veían, con dinero recuperable identificado.",
+      "relevantWhen": [
+        "PDF",
+        "facturas",
+        "documentos",
+        "auditoría",
+        "duplicados",
+        "cobros",
+        "conciliación",
+        "fugas de dinero",
+        "revisión manual"
+      ]
+    },
+    {
+      "title": "Cargas masivas y robots sobre sistemas de terceros",
+      "context": "Operaciones con rezagos de datos o portales de terceros sin API donde el equipo digitaba o descargaba información a mano.",
+      "built": "Scripts que cargaron automáticamente cerca de 19.800 registros de agenda vía API respetando los límites diarios del proveedor, y robots que ingresan a portales web, buscan, descargan, renombran y ordenan documentos con reintentos y registro de cada paso.",
+      "outcome": "Trabajo de semanas de digitación resuelto de forma automática y trazable.",
+      "relevantWhen": [
+        "carga masiva",
+        "migración de datos",
+        "portal",
+        "descargar",
+        "digitar",
+        "copiar y pegar",
+        "sin API",
+        "robot",
+        "RPA",
+        "Excel"
+      ]
+    },
+    {
+      "title": "Sistema maestro con trazabilidad y reglas editables",
+      "context": "Procesos con muchos pasos (agenda, validación, documentos, muestras, entrega) repartidos en sistemas desconectados y decisiones tomadas a criterio.",
+      "built": "Un sistema único con estados definidos para cada caso, folio que recorre todo el proceso, etiquetas QR, roles y permisos por tipo de usuario, registro de quién hizo qué y cuándo, y un motor de reglas que el equipo edita sin tocar código.",
+      "outcome": "Una sola fuente de verdad, menos errores de traspaso y trazabilidad lista para fiscalizaciones o auditorías.",
+      "relevantWhen": [
+        "trazabilidad",
+        "folio",
+        "QR",
+        "fiscalización",
+        "auditoría",
+        "reglas",
+        "roles",
+        "sistemas desconectados",
+        "estados",
+        "seguimiento de casos"
+      ]
+    },
+    {
+      "title": "Plataforma comercial de ImpulsIA",
+      "context": "La propia operación de ImpulsIA necesitaba captar, cotizar, cobrar y atender sin trabajo manual.",
+      "built": "Sitio web con diagnóstico, CRM con pipeline, cotizador con reglas de precio, cobros en línea, portal de clientes, correos automáticos y este asistente de WhatsApp con IA que califica, cotiza en rangos y agenda reuniones en Google Calendar.",
+      "outcome": "Es una demostración en vivo de lo que ImpulsIA implementa: la persona que conversa con el asistente lo está usando.",
+      "relevantWhen": [
+        "whatsapp",
+        "ventas",
+        "crm",
+        "seguimiento",
+        "cotizaciones",
+        "cobranza",
+        "atención",
+        "leads",
+        "página web",
+        "agenda"
+      ]
+    }
+  ],
+  "strengths": [
+    "Entiende operación y negocio: parte por el cuello de botella y el impacto en tiempo, costo y rentabilidad, no por la tecnología.",
+    "Emprendedor con negocio propio en retail: entiende de caja, stock, margen y ventas porque lo vive a diario.",
+    "Diseña y construye sistemas completos de punta a punta: desde la página web hasta la base de datos, los paneles y las integraciones.",
+    "Integra lo que el cliente ya usa (ERP, laboratorios, planillas, WhatsApp, correo, ecommerce) en vez de obligarlo a cambiar todo.",
+    "Soluciones pequeñas y medibles primero, que luego crecen módulo a módulo con descuentos por expansión.",
+    "Precio con reglas claras desde el inicio y costos de terceros siempre separados.",
+    "Inteligencia artificial aplicada donde aporta (clasificar, responder, resumir, decidir), con personas revisando lo importante."
+  ],
+  "technicalCapabilities": [
+    "Integraciones entre sistemas mediante APIs, webservices y webhooks, incluido el estándar clínico HL7 para laboratorios y sistemas de salud.",
+    "Automatización de procesos: tareas repetitivas, traspaso de datos entre sistemas, avisos, recordatorios, reportes y cobranza automática.",
+    "Diseño y desarrollo de páginas web y plataformas a medida (paneles, portales de clientes, CRM, cotizadores) en tecnologías web modernas y en la nube.",
+    "Asistentes con inteligencia artificial y bots de WhatsApp que atienden, califican, cotizan y agendan.",
+    "Bases de datos, paneles e indicadores de gestión (dashboards) para ver ventas, operación y rentabilidad en tiempo real.",
+    "Conexión con herramientas de uso diario: WhatsApp Business, Google Workspace (correo, calendario), facturación y medios de pago.",
+    "Sistemas para retail y tiendas: ERP, CRM, punto de venta, inventario y documentos del SII.",
+    "Integraciones con software de agenda como AgendaPro y portales de postservicio para entrega de resultados o documentos.",
+    "Robots (RPA) que operan portales web de terceros sin API: ingresan, buscan, descargan y ordenan documentos.",
+    "Lectura y auditoría automática de documentos PDF y Excel para detectar duplicados, errores y dinero no cobrado.",
+    "Asistentes con IA entrenados con los documentos y reglas de la empresa para ventas, soporte u operación.",
+    "Levantamiento de procesos (situación actual y propuesta), cálculo de retorno y plan por etapas antes de construir."
+  ],
+  "implementationDetails": [
+    "Stack habitual: Next.js y React en el frontend, funciones serverless en Vercel, Supabase (PostgreSQL, Auth, Storage, Edge Functions, Realtime) como base de datos, Python para automatizaciones y Playwright para robots web.",
+    "Integraciones por API REST, webhooks y eventos; HL7 (mensajes de órdenes) para laboratorios; Google Workspace (Gmail, Calendar, Drive, Sheets, Apps Script); WhatsApp Business Cloud API; herramientas como Make, n8n o Zapier cuando conviene.",
+    "Seguridad por diseño: roles y permisos aplicados en la base de datos (Row Level Security), llaves de API sólo en el servidor, mínimo privilegio y doble factor para administradores.",
+    "Trazabilidad: cada acción queda registrada con usuario, fecha y evidencia; historial de sólo inserción, borrado lógico y huella SHA-256 de archivos.",
+    "Idempotencia: si un proceso o una integración se reintenta, no se duplican registros ni cobros.",
+    "Continuidad: respaldos diarios con recuperación a un punto en el tiempo, ambiente de pruebas y ningún cambio destructivo en producción.",
+    "Datos personales: se diseña pensando en la Ley 19.628 y la nueva Ley 21.719 de protección de datos, y en la Ley 21.663 de ciberseguridad.",
+    "La IA interpreta, clasifica y conversa; las decisiones críticas (dinero, datos sensibles, cambios de estado) se ejecutan con reglas programadas y auditables, con aprobación humana cuando corresponde.",
+    "Se integra con los sistemas que el cliente ya tiene en vez de reemplazarlos, creando una fuente única de verdad.",
+    "Método: levantamiento del proceso actual, cuantificación, diseño de la propuesta, MVP con un caso real, medición y crecimiento por etapas."
+  ],
+  "effortGuide": [
+    "Referencia real: la plataforma completa de ImpulsIA (sitio con diagnóstico, CRM, cotizador, cobros, portal de clientes, correos automáticos y asistente de WhatsApp con IA y agenda) se construyó desde cero en 6 jornadas. Casi ningún proyecto de pyme debería superar eso.",
+    "Mantén la proporción con esa referencia: dimensiona cada caso como una fracción de lo que costó ImpulsIA. Los rangos de abajo son techos para un caso típico; si el caso es simple, usa el extremo bajo o menos.",
+    "Profesional independiente con poco tráfico (por ejemplo un doctor): agenda en Google Calendar + WhatsApp automático (confirmaciones, recordatorios, indicaciones) + ajustes que pida: 2 a 3 jornadas.",
+    "Clínica o centro con varios profesionales, muchos tipos de atención y alto volumen: 4 a 6 jornadas, más lo que sumen sus integraciones.",
+    "Automatización o reporte acotado (un proceso, una fuente de datos): 1 jornada, 2 si hay reglas complejas.",
+    "Integración entre dos sistemas con API o webhooks, o un robot sobre un portal: 1 a 3 jornadas.",
+    "Panel, portal o sistema interno a medida (CRM, cotizador, trazabilidad) con uno o dos sistemas conectados: 2 a 4 jornadas.",
+    "Plataforma completa de varios módulos, comparable a ImpulsIA: 5 a 7 jornadas; más sólo por integraciones o levantamiento.",
+    "Lo que sí sube las jornadas: cada sistema adicional a integrar (+1 a 2), sistemas antiguos o sin API (+1 a 3), empresas grandes con procesos poco documentados, donde hay que levantar y validar el proceso antes de construir (+2 a 5), y la variedad de reglas, tipos de atención o casos distintos que el sistema debe manejar.",
+    "La cantidad de pantallas, registros o usuarios casi no sube las jornadas por sí sola.",
+    "Usa un rango estrecho: el máximo no más de 50% sobre el mínimo (o 2 jornadas más en rangos chicos)."
+  ],
+  "fixedOffers": [
+    {
+      "name": "Asistente de WhatsApp para profesionales independientes",
+      "audience": "Profesionales que atienden solos (salud, terapias, belleza, servicios a domicilio) y buscan un agente de WhatsApp con agenda automatizada.",
+      "includes": [
+        "agente de WhatsApp con IA que responde, explica sus servicios y da sus tarifas",
+        "agenda automatizada en AgendaPro o Google Calendar",
+        "agenda y reagenda citas",
+        "envía recordatorios",
+        "valida pagos (link de pago y revisión de comprobantes)",
+        "toma las direcciones de los pacientes o clientes",
+        "programa su ruta diaria de atenciones a domicilio"
+      ],
+      "implementation": 150000,
+      "monthly": 65000,
+      "conditions": [
+        "Preséntalo primero como \"tu asistente personalizado por menos de $2.200 al día, más IVA\" (es la mensualidad de $65.000 + IVA); después da los montos exactos.",
+        "Ambos montos son más IVA; la implementación de $150.000 es un precio promocional.",
+        "Queda funcionando en 24 horas desde que el profesional entrega sus servicios, horarios y tarifas. Si necesita algo fuera de lo incluido (varios profesionales o integraciones especiales), se cotiza aparte en el diagnóstico."
+      ]
+    },
+    {
+      "name": "Plan Local: menú digital y pedidos por WhatsApp para comida rápida",
+      "audience": "Locales de comida rápida, delivery y restaurantes que reciben pedidos por WhatsApp o Instagram. Es la oferta principal para este rubro.",
+      "includes": [
+        "menú digital móvil con carro de pedido, fácil de actualizar",
+        "agente de WhatsApp con IA que responde dudas del menú, arma el pedido y pide dirección o retiro",
+        "deriva a una persona pagos, reclamos y cambios de pedido",
+        "el local revisa el pago y prepara o despacha el pedido",
+        "hasta 800 conversaciones al mes"
+      ],
+      "implementation": 199900,
+      "monthly": 109900,
+      "conditions": [
+        "Ambos montos son más IVA; la implementación es precio de lanzamiento.",
+        "Queda funcionando en 3 días hábiles desde que el local entrega menú con precios, horarios, zonas y costos de despacho, medios de pago y su aprobación.",
+        "Sobre 800 conversaciones al mes se suman bloques de 100 a $14.990 + IVA; se avisa al local al llegar al 80 %.",
+        "No prometas más ventas: el beneficio es menos trabajo repetitivo y pedidos ordenados. Si el local usa el teléfono del negocio, el uso simultáneo con la app se verifica en el diagnóstico.",
+        "Los cobros de Meta por mensaje de WhatsApp (desde oct. 2026, aprox. USD 0,02 por respuesta en Chile) los paga el local directo a Meta con su tarjeta; no están incluidos en la mensualidad.",
+        "Incluye un subdominio de ImpulsIA para el menú; un dominio propio (.cl, unos $12.000 al año) se registra a nombre del local y lo paga el local."
+      ]
+    },
+    {
+      "name": "Plan Entrada: menú digital y pedidos por WhatsApp para locales con poco movimiento",
+      "audience": "Sólo si un local de comida dice que recibe pocos pedidos o que el Plan Local le resulta caro. No lo ofrezcas de entrada.",
+      "includes": [
+        "menú digital móvil con carro de pedido, fácil de actualizar",
+        "agente de WhatsApp con IA que responde dudas del menú, arma el pedido y pide dirección o retiro",
+        "deriva a una persona pagos, reclamos y cambios de pedido",
+        "el local revisa el pago y prepara o despacha el pedido",
+        "hasta 300 conversaciones al mes"
+      ],
+      "implementation": 220000,
+      "monthly": 70000,
+      "conditions": [
+        "Ambos montos son más IVA. Mismo plazo y condiciones que el Plan Local.",
+        "Si el local supera 300 conversaciones al mes, se le propone pasar al Plan Local.",
+        "Los cobros de Meta por mensaje de WhatsApp (desde oct. 2026, aprox. USD 0,02 por respuesta en Chile) los paga el local directo a Meta con su tarjeta; no están incluidos en la mensualidad.",
+        "Incluye un subdominio de ImpulsIA para el menú; un dominio propio (.cl, unos $12.000 al año) se registra a nombre del local y lo paga el local."
+      ]
+    }
+  ],
+  "limits": [
+    "Certificaciones formales como ISO 27001 o pentesting certificado.",
+    "Aplicaciones nativas publicadas en App Store o Google Play (sí aplicaciones web instalables en el teléfono).",
+    "Un motor propio de facturación electrónica del SII: se integra un proveedor autorizado.",
+    "Clientes, cifras o casos que no estén en este conocimiento."
+  ],
+  "meetingPitch": "Ofrece una videollamada por Google Meet de 30 minutos con Martín, nuestro FDE, a cargo del diagnóstico, la cotización y la implementación, sin compromiso y sin costo, para que salga con ideas concretas, un camino posible y un rango de costo. Nunca lo presentes como fundador, dueño ni gerente (si preguntan directamente quién dirige la empresa, puedes decir que es él). Es el paso natural cuando hay un dolor claro, no una venta.",
+  "idealClients": "Pymes y empresas medianas de 5 a 100 personas con procesos manuales, planillas y sistemas desconectados (salud, laboratorios y centros de atención, retail y tiendas, logística, servicios), donde el dueño o un gerente quiere ahorrar horas, bajar errores y ver mejor su negocio.",
+  "objections": [
+    {
+      "objection": "Es caro / no tengo presupuesto",
+      "approach": "Ayúdale a estimar cuántas horas al mes consume el proceso y cuánto le cuestan; compara con el rango de implementación y mantención. Propón partir por una solución pequeña que se pague sola y recuérdale que la reunión es sin costo."
+    },
+    {
+      "objection": "Ya tenemos un sistema",
+      "approach": "Perfecto: ImpulsIA integra y automatiza sobre lo que ya usan, no lo reemplaza. Pregunta qué parte del proceso sigue siendo manual alrededor de ese sistema."
+    },
+    {
+      "objection": "No tengo tiempo para un proyecto",
+      "approach": "Las implementaciones son acotadas y el equipo de ImpulsIA hace el trabajo; del cliente se necesitan accesos y validaciones puntuales. La reunión inicial dura 30 minutos por videollamada."
+    },
+    {
+      "objection": "No confío en la IA / miedo a errores",
+      "approach": "La IA se usa donde aporta y con personas revisando lo importante; muchas soluciones son integraciones y automatizaciones sin IA. Todo se prueba antes de usarse con clientes reales."
+    },
+    {
+      "objection": "Lo voy a pensar / mándame información",
+      "approach": "Respeta su tiempo. Ofrece la videollamada sin compromiso ni costo para aterrizar su caso; si prefiere, deja registrada su solicitud para que el equipo le escriba."
+    },
+    {
+      "objection": "¿Son una empresa grande? ¿Tienen experiencia?",
+      "approach": "Sé transparente: ImpulsIA es una empresa boutique nueva, liderada por alguien con experiencia real en operaciones, desarrollo de sistemas e integraciones. Menciona sólo la experiencia listada y ofrece mostrarla en la reunión."
+    },
+    {
+      "objection": "¿Es muy técnico? No sé de sistemas",
+      "approach": "No necesita saber de tecnología: basta con que cuente cómo trabaja hoy y qué le molesta. ImpulsIA traduce eso en una solución y se encarga de la parte técnica."
+    }
+  ]
+}

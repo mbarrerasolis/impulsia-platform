@@ -1,0 +1,44 @@
+# dependencies
+node_modules/
+
+# next
+.next/
+out/
+
+# testing
+coverage/
+
+# environment and secrets
+.env
+.env.local
+.env.*.local
+!.env.example
+.impulsia-secrets/
+
+# local tooling
+.vercel/
+.supabase/
+supabase/.temp/
+supabase/.branches/
+*.tsbuildinfo
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Documentos legales/tributarios con datos personales (no versionar)
+Declaracion_Cesion_Inmueble_*.pdf
+Memoria_Descriptiva_Negocio_*.pdf
+
+# Originales de Unsplash: build-photos.mjs los descarga desde fotos/creditos.json
+clientes/*/catalogo/fotos/unsplash/
+
+
+
+# Videos, imágenes y HTML generados del reel (pesados; respaldo en Drive)
+marketing/05 (1)/
+marketing/instagram/05-reel-fde/.html/
+marketing/instagram/05-reel-fde/capcut/
+marketing/instagram/05-reel-fde/clips/

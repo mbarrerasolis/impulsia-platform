@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "slug": "cliente-b2b",
+  "appUrl": "https://cliente.example.com",
+  "vercel": {
+    "projectName": "cliente-b2b",
+    "scope": "",
+    "projectId": "",
+    "orgId": "",
+    "customDomain": "cliente.example.com"
+  },
+  "supabase": {
+    "projectName": "cliente-b2b",
+    "organizationId": "",
+    "projectRef": "",
+    "region": "sa-east-1",
+    "size": "micro"
+  },
+  "providers": {
+    "payment": "mock",
+    "flowEnvironment": "sandbox",
+    "email": "mock",
+    "whatsappBotEnabled": false
+  }
+}

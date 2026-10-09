@@ -1,0 +1,159 @@
+import { createClient } from "@supabase/supabase-js";
+
+const baseUrl = process.env.SMOKE_BASE_URL ?? "http://localhost:3000";
+
+function required(name) {
+  const value = process.env[name];
+  if (!value) throw new Error(`Falta ${name}.`);
+  return value;
+}
+
+function assert(condition, message) {
+  if (!condition) throw new Error(message);
+}
+
+assert(process.env.APP_MODE === "supabase", "Este smoke debe ejecutarse con APP_MODE=supabase.");
+
+const service = createClient(required("NEXT_PUBLIC_SUPABASE_URL"), required("SUPABASE_SECRET_KEY"), {
+  auth: { autoRefreshToken: false, persistSession: false },
+});
+
+const suffix = `${Date.now().toString(36)}-${crypto.randomUUID().slice(0, 8)}`;
+const ownerEmail = `billing-owner-${suffix}@example.com`;
+const ownerPassword = `Bill-${crypto.randomUUID()}-Aa1!`;
+const leadEmail = `billing-lead-${suffix}@example.com`;
+
+let ownerId = null;
+let leadId = null;
+let accountId = null;
+let cookie = "";
+
+async function request(path, options = {}) {
+  const headers = { ...(options.headers ?? {}) };
+  if (cookie) headers.cookie = cookie;
+  const response = await fetch(`${baseUrl}${path}`, { redirect: "manual", ...options, headers });
+  const setCookies = typeof response.headers.getSetCookie === "function" ? response.headers.getSetCookie() : [];
+  if (setCookies.length > 0) cookie = setCookies.map((value) => value.split(";")[0]).join("; ");
+  const text = await response.text();
+  const data = (() => {
+    try {
+      return JSON.parse(text);
+    } catch {
+      return text;
+    }
+  })();
+  return { response, data };
+}
+
+try {
+  const created = await service.auth.admin.createUser({ email: ownerEmail, password: ownerPassword, email_confirm: true });
+  if (created.error || !created.data.user) throw new Error(`No fue posible crear el owner: ${created.error?.message ?? "sin usuario"}`);
+  ownerId = created.data.user.id;
+  const profile = await service.from("profiles").insert({ id: ownerId, role: "owner_admin", display_name: "Owner Billing Smoke" });
+  if (profile.error) throw new Error(`No fue posible crear el perfil del owner: ${profile.error.message}`);
+
+  const login = await request("/api/auth/login", {
+    method: "POST",
+    headers: { "content-type": "application/json" },
+    body: JSON.stringify({ email: ownerEmail, password: ownerPassword }),
+  });
+  assert(login.response.status === 200, `Login respondió ${login.response.status}: ${JSON.stringify(login.data)}`);
+
+  const lead = await request("/api/leads", {
+    method: "POST",
+    headers: { "content-type": "application/json" },
+    body: JSON.stringify({
+      name: "Billing Smoke",
+      company: `Empresa Billing ${suffix}`,
+      email: leadEmail,
+      rawNeedDescription: "Automatizar cobranza recurrente con un proveedor real.",
+      systems: ["ERP"],
+      apiKnowledge: "yes",
+      peopleInvolved: 2,
+      hoursPerMonth: 20,
+      monthlyVolume: 200,
+      primaryGoal: "Reducir trabajo manual",
+      consentGiven: true,
+    }),
+  });
+  assert(lead.response.status === 201, `Creación de lead respondió ${lead.response.status}: ${JSON.stringify(lead.data)}`);
+  leadId = lead.data.id;
+
+  const convert = await request(`/api/admin/leads/${leadId}/convert`, {
+    method: "POST",
+    headers: { "content-type": "application/json" },
+    body: JSON.stringify({ industry: "Servicios" }),
+  });
+  assert(convert.response.status === 201, `Conversión respondió ${convert.response.status}: ${JSON.stringify(convert.data)}`);
+  accountId = convert.data.account.id;
+
+  const quote = await request("/api/admin/quotes", {
+    method: "POST",
+    headers: { "content-type": "application/json" },
+    body: JSON.stringify({ accountId, name: "Automatización de cobranza", estimatedDays: 8, complexity: "standard", thirdPartyMonthlyCost: 0 }),
+  });
+  assert(quote.response.status === 201, `Cotización respondió ${quote.response.status}: ${JSON.stringify(quote.data)}`);
+  const quoteId = quote.data.quote.id;
+
+  const approve = await request(`/api/admin/quotes/${quoteId}/approve`, { method: "POST" });
+  assert(approve.response.status === 200, `Aprobación respondió ${approve.response.status}: ${JSON.stringify(approve.data)}`);
+  const billingPeriodId = approve.data.result.billingPeriod.id;
+
+  // El contacto creado al convertir el lead sólo tiene roles comercial/management;
+  // simulamos que ventas ya lo marcó también como contacto de facturación.
+  const { data: contacts, error: contactsError } = await service.from("contacts").select("id").eq("account_id", accountId);
+  if (contactsError || !contacts?.length) throw new Error(`No fue posible leer contactos: ${contactsError?.message ?? "vacío"}`);
+  const contactId = contacts[0].id;
+  const role = await service.from("contact_roles").insert({ contact_id: contactId, role: "billing" });
+  if (role.error) throw new Error(`No fue posible marcar el contacto como billing: ${role.error.message}`);
+  await service.from("contacts").update({ is_primary_billing: true }).eq("id", contactId);
+
+  const link = await request(`/api/admin/billing/${billingPeriodId}/payment-link`, { method: "POST" });
+  assert(link.response.status === 200, `Creación de link respondió ${link.response.status}: ${JSON.stringify(link.data)}`);
+  assert(typeof link.data.url === "string" && link.data.url.length > 0, "No se devolvió una url de pago.");
+
+  const repeat = await request(`/api/admin/billing/${billingPeriodId}/payment-link`, { method: "POST" });
+  assert(repeat.response.status === 200, `Segunda creación respondió ${repeat.response.status}: ${JSON.stringify(repeat.data)}`);
+  assert(repeat.data.url === link.data.url, "El segundo llamado no reusó el mismo link (debe ser idempotente).");
+  assert(repeat.data.payment.id === link.data.payment.id, "El segundo llamado creó un pago distinto.");
+
+  console.log(JSON.stringify({
+    login: login.response.status,
+    leadConversion: convert.response.status,
+    quoteApproval: approve.response.status,
+    paymentLinkCreation: link.response.status,
+    paymentLinkReuse: repeat.response.status,
+    idempotent: repeat.data.url === link.data.url,
+    accountId,
+    billingPeriodId,
+    paymentId: link.data.payment.id,
+  }, null, 2));
+} finally {
+  const cleanupErrors = [];
+  if (accountId) {
+    const subscriptions = await service.from("subscriptions").select("id").eq("account_id", accountId);
+    const subscriptionIds = (subscriptions.data ?? []).map((row) => row.id);
+    if (subscriptionIds.length > 0) {
+      const items = await service.from("subscription_items").delete().in("subscription_id", subscriptionIds);
+      if (items.error) cleanupErrors.push(`subscription_items: ${items.error.message}`);
+    }
+    const audit = await service.from("audit_log").delete().eq("account_id", accountId);
+    if (audit.error) cleanupErrors.push(`audit_log: ${audit.error.message}`);
+  }
+  if (leadId) {
+    const lead = await service.from("leads").delete().eq("id", leadId);
+    if (lead.error) cleanupErrors.push(`leads: ${lead.error.message}`);
+  }
+  if (accountId) {
+    const account = await service.from("accounts").delete().eq("id", accountId);
+    if (account.error) cleanupErrors.push(`accounts: ${account.error.message}`);
+  }
+  if (ownerId) {
+    const user = await service.auth.admin.deleteUser(ownerId);
+    if (user.error) cleanupErrors.push(`auth user: ${user.error.message}`);
+  }
+  if (cleanupErrors.length > 0) {
+    console.error("Limpieza incompleta:", cleanupErrors.join("; "));
+    process.exitCode = 1;
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "slug": "cliente-b2b",
+  "brand": {
+    "name": "Marca B2B",
+    "legalName": "Empresa B2B SpA",
+    "tagline": "Una propuesta clara para empresas que quieren avanzar.",
+    "description": "Ayudamos a empresas a resolver un problema valioso con una oferta clara y medible.",
+    "contactEmail": "ventas@empresa.cl",
+    "heroEyebrow": "Soluciones B2B enfocadas en resultados",
+    "heroTitle": "Haz avanzar a tus clientes.",
+    "heroHighlight": "Convierte interés en negocio.",
+    "heroDescription": "Presenta tu oferta, captura oportunidades y gestiona el recorrido comercial desde una plataforma preparada para crecer.",
+    "whatsappMessage": "Hola, quiero conocer mejor su propuesta para empresas.",
+    "primaryColor": "#0f766e",
+    "primaryDarkColor": "#0b514d",
+    "accentColor": "#b8f74f",
+    "darkSurfaceColor": "#102e2f"
+  },
+  "commerce": { "locale": "es-CL", "currency": "CLP" },
+  "business": { "model": "b2b", "offering": "services" },
+  "modules": { "quotes": true, "subscriptions": true, "clientPortal": true, "whatsapp": true, "meetings": true, "store": false, "erp": false, "sectorLandings": [] },
+  "pricing": {
+    "version": "v1",
+    "effectiveFrom": "2026-01-01",
+    "dayRate": 200000,
+    "minimumImplementation": 200000,
+    "minimumMaintenance": 65000,
+    "roundingMultiple": 1000,
+    "complexityFactors": { "standard": 1, "medium": 1.2, "high": 1.5, "research": 1.75, "advanced_research": 2 },
+    "maintenanceBrackets": [
+      { "upTo": 400000, "ratePercent": 20, "floor": 65000 },
+      { "upTo": 1000000, "ratePercent": 17.5, "floor": 80000 },
+      { "upTo": 2000000, "ratePercent": 15, "floor": 175000 },
+      { "upTo": 4000000, "ratePercent": 12, "floor": 300000 },
+      { "upTo": null, "ratePercent": 10, "floor": 480000 }
+    ],
+    "expansionDiscountTiers": [
+      { "fromSolution": 1, "discountPercent": 0 },
+      { "fromSolution": 2, "discountPercent": 25 },
+      { "fromSolution": 3, "discountPercent": 30 },
+      { "fromSolution": 4, "discountPercent": 35 },
+      { "fromSolution": 5, "discountPercent": 40 }
+    ]
+  },
+  "catalog": [
+    { "key": "servicio-inicial", "name": "Servicio B2B inicial", "category": "Servicios", "description": "Oferta inicial de alcance claro y resultado medible.", "defaultDays": 3, "defaultComplexity": "medium" }
+  ],
+  "landing": {
+    "primaryCtaLabel": "Solicitar una evaluación",
+    "secondaryCtaLabel": "Hablar con ventas",
+    "secondaryCtaTarget": "contact",
+    "trustItems": ["Respuesta clara", "Alcance transparente", "Acompañamiento comercial"],
+    "audienceLabels": ["Servicios", "Software", "Consultoría", "Industria", "Empresas"],
+    "missionEyebrow": "Nuestra propuesta",
+    "missionTitle": "Una solución clara para un problema valioso.",
+    "missionDescription": "Explica por qué existe tu empresa, a quién ayuda y qué resultado entrega.",
+    "benefits": [
+      { "title": "Resuelve una prioridad", "text": "Conecta tu oferta con el problema concreto que el comprador necesita resolver ahora." },
+      { "title": "Reduce el riesgo", "text": "Explica el alcance, el proceso y el siguiente paso antes de pedir una decisión." },
+      { "title": "Demuestra el valor", "text": "Usa evidencia real para que el cliente entienda el resultado que puede esperar." }
+    ],
+    "solutionsEyebrow": "Qué resolvemos",
+    "solutionsTitle": "Menos fricción. Más resultados.",
+    "solutionsDescription": "Presenta las capacidades que conectan directamente con los problemas de tu comprador.",
+    "capabilities": [
+      { "title": "Una oferta fácil de entender", "text": "Resume qué vendes, para quién es y qué resultado genera sin depender de jerga interna.", "tag": "Claridad" },
+      { "title": "Un recorrido comercial directo", "text": "Lleva al visitante desde su problema hasta una conversación concreta con tu equipo.", "tag": "Conversión" },
+      { "title": "Prueba que genera confianza", "text": "Muestra casos, pantallas o resultados autorizados en el momento correcto.", "tag": "Evidencia" },
+      { "title": "Precios y alcance explicables", "text": "Presenta una referencia comercial clara cuando tu modelo lo permita.", "tag": "Oferta" },
+      { "title": "Captura de oportunidades", "text": "Recoge la información mínima para que ventas pueda responder con contexto.", "tag": "Leads" },
+      { "title": "Base preparada para crecer", "text": "Conserva una estructura que puede ampliarse junto con el negocio.", "tag": "Escala" }
+    ],
+    "proofPanel": {
+      "enabled": false,
+      "ariaLabel": "Panel demostrativo",
+      "eyebrow": "Resultados",
+      "title": "Indicadores del servicio",
+      "metrics": [{ "label": "Indicador", "value": 0, "suffix": "", "thousands": false, "accent": "lime" }],
+      "activities": [{ "name": "Actividad comercial", "detail": "Sin datos publicados", "status": "Demo" }]
+    },
+    "productEyebrow": "El producto",
+    "productTitle": "Muestra evidencia, no sólo promesas.",
+    "productDescription": "Agrega capturas reales cuando la edición esté preparada para publicarse.",
+    "floatingChat": {
+      "enabled": false,
+      "title": "Conversación comercial",
+      "incoming": "Hola, quiero conocer su propuesta.",
+      "outgoing": "Claro. Cuéntame qué necesitas resolver.",
+      "status": "respuesta en preparación"
+    },
+    "caseStudyEyebrow": "Resultados",
+    "caseStudyTitle": "Demuestra que puedes cumplir.",
+    "caseStudyDescription": "Incluye casos autorizados con contexto, solución y resultado.",
+    "processEyebrow": "Cómo funciona",
+    "processTitle": "De la necesidad a un resultado concreto.",
+    "processDescription": "Describe un proceso comercial simple, transparente y fácil de iniciar.",
+    "processSteps": [
+      { "title": "Entendemos la necesidad", "text": "Recogemos el contexto suficiente para confirmar si la oferta encaja." },
+      { "title": "Definimos la propuesta", "text": "Acordamos alcance, resultado esperado, inversión y forma de trabajo." },
+      { "title": "Entregamos y medimos", "text": "Ejecutamos el servicio y revisamos el resultado con criterios conocidos." }
+    ],
+    "pricingEyebrow": "Oferta clara",
+    "pricingTitle": "Empieza con un alcance controlado. Escala cuando funcione.",
+    "pricingBenefits": ["Inversión desde {minimumImplementation}", "Alcance y condiciones documentadas", "Siguiente paso claro para el comprador"],
+    "finalCtaTitle": "¿Conversamos sobre tu prioridad?",
+    "finalCtaDescription": "Cuéntanos el contexto y te propondremos un siguiente paso claro.",
+    "diagnosticEyebrow": "Contacto inicial · Menos de 1 minuto",
+    "diagnosticTitle": "Cuéntanos qué necesitas resolver.",
+    "diagnosticDescription": "Déjanos tus datos y una breve descripción. El equipo revisará el contexto antes de contactarte."
+  },
+  "productShowcase": [],
+  "caseStudies": []
+}

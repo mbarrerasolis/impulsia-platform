@@ -1,0 +1,4349 @@
+{
+  "schemaVersion": 1,
+  "slug": "distribuidorasecos",
+  "brand": {
+    "name": "Comercializadora Secos",
+    "legalName": "Secos SpA",
+    "tagline": "Frutos secos, mix, frutas deshidratadas y semillas por kilo, con envíos a todo Chile.",
+    "description": "Frutos secos, mix, maní confitado, frutas deshidratadas, semillas, legumbres y más, por kilo, para hogares y negocios, con envíos a todo Chile.",
+    "contactEmail": "contacto@distribuidorasecos.cl",
+    "heroEyebrow": "Frutos secos y granos · Envíos a todo Chile",
+    "heroTitle": "Frutos secos por kilo,",
+    "heroHighlight": "directo de la bodega a tu mesa.",
+    "heroDescription": "Almendras, nueces, mix, maní confitado, frutas deshidratadas, semillas y legumbres. Para tu casa o tu negocio, con despacho a todo Chile.",
+    "whatsappMessage": "Hola, quiero hacer una consulta sobre sus productos.",
+    "primaryColor": "#D06A14",
+    "primaryDarkColor": "#A8520C",
+    "accentColor": "#FDD58F",
+    "darkSurfaceColor": "#1A100A",
+    "seoTitle": "Comercializadora Secos | Frutos secos por kilo",
+    "seoDescription": "Frutos secos, maní confitado, mix, frutas deshidratadas, semillas y legumbres por kilo. Precio por volumen desde 6 kg y despacho a todo Chile.",
+    "notificationCc": [
+      "contacto@distribuidorasecos.cl"
+    ]
+  },
+  "commerce": {
+    "locale": "es-CL",
+    "currency": "CLP"
+  },
+  "business": {
+    "model": "mixed",
+    "offering": "products"
+  },
+  "modules": {
+    "quotes": false,
+    "subscriptions": false,
+    "clientPortal": false,
+    "whatsapp": true,
+    "meetings": false,
+    "store": true,
+    "erp": false,
+    "sectorLandings": []
+  },
+  "pricing": {
+    "version": "v1",
+    "effectiveFrom": "2026-01-01",
+    "dayRate": 200000,
+    "minimumImplementation": 200000,
+    "minimumMaintenance": 65000,
+    "roundingMultiple": 1000,
+    "complexityFactors": {
+      "standard": 1,
+      "medium": 1.2,
+      "high": 1.5,
+      "research": 1.75,
+      "advanced_research": 2
+    },
+    "maintenanceBrackets": [
+      {
+        "upTo": 400000,
+        "ratePercent": 20,
+        "floor": 65000
+      },
+      {
+        "upTo": 1000000,
+        "ratePercent": 17.5,
+        "floor": 80000
+      },
+      {
+        "upTo": 2000000,
+        "ratePercent": 15,
+        "floor": 175000
+      },
+      {
+        "upTo": 4000000,
+        "ratePercent": 12,
+        "floor": 300000
+      },
+      {
+        "upTo": null,
+        "ratePercent": 10,
+        "floor": 480000
+      }
+    ],
+    "expansionDiscountTiers": [
+      {
+        "fromSolution": 1,
+        "discountPercent": 0
+      },
+      {
+        "fromSolution": 2,
+        "discountPercent": 25
+      },
+      {
+        "fromSolution": 3,
+        "discountPercent": 30
+      },
+      {
+        "fromSolution": 4,
+        "discountPercent": 35
+      },
+      {
+        "fromSolution": 5,
+        "discountPercent": 40
+      }
+    ]
+  },
+  "catalog": [
+    {
+      "key": "pedido-mayorista",
+      "name": "Pedido mayorista",
+      "category": "Ventas",
+      "description": "Pedido por volumen para negocios y revendedores.",
+      "defaultDays": 1,
+      "defaultComplexity": "standard"
+    }
+  ],
+  "landing": {
+    "primaryCtaLabel": "Ver productos",
+    "secondaryCtaLabel": "Escríbenos",
+    "secondaryCtaTarget": "contact",
+    "trustItems": [
+      "Envíos a todo Chile",
+      "Por kilo o envasado",
+      "Hogares y negocios"
+    ],
+    "audienceLabels": [
+      "Frutos secos",
+      "Legumbres",
+      "Harinas",
+      "Semillas",
+      "Granolas"
+    ],
+    "missionEyebrow": "Nuestra propuesta",
+    "missionTitle": "Una solución clara para un problema valioso.",
+    "missionDescription": "Explica por qué existe tu empresa, a quién ayuda y qué resultado entrega.",
+    "benefits": [
+      {
+        "title": "Resuelve una prioridad",
+        "text": "Conecta tu oferta con el problema concreto que el comprador necesita resolver ahora."
+      },
+      {
+        "title": "Reduce el riesgo",
+        "text": "Explica el alcance, el proceso y el siguiente paso antes de pedir una decisión."
+      },
+      {
+        "title": "Demuestra el valor",
+        "text": "Usa evidencia real para que el cliente entienda el resultado que puede esperar."
+      }
+    ],
+    "solutionsEyebrow": "Qué resolvemos",
+    "solutionsTitle": "Menos fricción. Más resultados.",
+    "solutionsDescription": "Presenta las capacidades que conectan directamente con los problemas de tu comprador.",
+    "capabilities": [
+      {
+        "title": "Una oferta fácil de entender",
+        "text": "Resume qué vendes, para quién es y qué resultado genera sin depender de jerga interna.",
+        "tag": "Claridad"
+      },
+      {
+        "title": "Un recorrido comercial directo",
+        "text": "Lleva al visitante desde su problema hasta una conversación concreta con tu equipo.",
+        "tag": "Conversión"
+      },
+      {
+        "title": "Prueba que genera confianza",
+        "text": "Muestra casos, pantallas o resultados autorizados en el momento correcto.",
+        "tag": "Evidencia"
+      },
+      {
+        "title": "Precios y alcance explicables",
+        "text": "Presenta una referencia comercial clara cuando tu modelo lo permita.",
+        "tag": "Oferta"
+      },
+      {
+        "title": "Captura de oportunidades",
+        "text": "Recoge la información mínima para que ventas pueda responder con contexto.",
+        "tag": "Leads"
+      },
+      {
+        "title": "Base preparada para crecer",
+        "text": "Conserva una estructura que puede ampliarse junto con el negocio.",
+        "tag": "Escala"
+      }
+    ],
+    "proofPanel": {
+      "enabled": false,
+      "ariaLabel": "Panel demostrativo",
+      "eyebrow": "Resultados",
+      "title": "Indicadores del servicio",
+      "metrics": [
+        {
+          "label": "Indicador",
+          "value": 0,
+          "suffix": "",
+          "thousands": false,
+          "accent": "lime"
+        }
+      ],
+      "activities": [
+        {
+          "name": "Actividad comercial",
+          "detail": "Sin datos publicados",
+          "status": "Demo"
+        }
+      ]
+    },
+    "productEyebrow": "El producto",
+    "productTitle": "Muestra evidencia, no sólo promesas.",
+    "productDescription": "Agrega capturas reales cuando la edición esté preparada para publicarse.",
+    "floatingChat": {
+      "enabled": false,
+      "title": "Conversación comercial",
+      "incoming": "Hola, quiero conocer su propuesta.",
+      "outgoing": "Claro. Cuéntame qué necesitas resolver.",
+      "status": "respuesta en preparación"
+    },
+    "caseStudyEyebrow": "Resultados",
+    "caseStudyTitle": "Demuestra que puedes cumplir.",
+    "caseStudyDescription": "Incluye casos autorizados con contexto, solución y resultado.",
+    "processEyebrow": "Cómo funciona",
+    "processTitle": "De la necesidad a un resultado concreto.",
+    "processDescription": "Describe un proceso comercial simple, transparente y fácil de iniciar.",
+    "processSteps": [
+      {
+        "title": "Entendemos la necesidad",
+        "text": "Recogemos el contexto suficiente para confirmar si la oferta encaja."
+      },
+      {
+        "title": "Definimos la propuesta",
+        "text": "Acordamos alcance, resultado esperado, inversión y forma de trabajo."
+      },
+      {
+        "title": "Entregamos y medimos",
+        "text": "Ejecutamos el servicio y revisamos el resultado con criterios conocidos."
+      }
+    ],
+    "pricingEyebrow": "Oferta clara",
+    "pricingTitle": "Empieza con un alcance controlado. Escala cuando funcione.",
+    "pricingBenefits": [
+      "Inversión desde {minimumImplementation}",
+      "Alcance y condiciones documentadas",
+      "Siguiente paso claro para el comprador"
+    ],
+    "finalCtaTitle": "¿Conversamos sobre tu prioridad?",
+    "finalCtaDescription": "Cuéntanos el contexto y te propondremos un siguiente paso claro.",
+    "diagnosticEyebrow": "Contacto · Menos de 1 minuto",
+    "diagnosticTitle": "Cuéntanos qué necesitas.",
+    "diagnosticDescription": "Déjanos tus datos y qué productos buscas. Te contactamos con precios y disponibilidad."
+  },
+  "productShowcase": [],
+  "caseStudies": [],
+  "storefront": {
+    "logo": {
+      "src": "/editions/distribuidorasecos/logo.svg",
+      "alt": "Comercializadora Secos",
+      "width": 586,
+      "height": 166
+    },
+    "emblem": "/editions/distribuidorasecos/emblem.svg",
+    "announcement": "Despacho a todo Chile con empresas de transporte asociadas",
+    "heroImages": [
+      {
+        "image": "/editions/distribuidorasecos/productos/nuez.jpg",
+        "caption": "Nuez mariposa extra light",
+        "detail": "cosecha 2026"
+      },
+      {
+        "image": "/editions/distribuidorasecos/productos/mix-premium.jpg"
+      },
+      {
+        "image": "/editions/distribuidorasecos/productos/kiwi-en-lonja.jpg"
+      }
+    ],
+    "suggestions": [
+      "Almendra",
+      "Nuez",
+      "Maní confitado",
+      "Mix",
+      "Higos",
+      "Chía"
+    ],
+    "catalogEyebrow": "Catálogo",
+    "catalogTitle": "Todo el catálogo",
+    "catalogDescription": "Busca o filtra por categoría, elige el formato y agrégalo al carro. Precios con IVA incluido; desde 6 kg de un mismo producto baja el precio por kilo.",
+    "categories": [
+      {
+        "key": "frutos-secos",
+        "name": "Frutos secos",
+        "description": "Almendra, nuez, cajú, pistacho y maní",
+        "color": "#D06A14",
+        "darkText": false,
+        "image": "/editions/distribuidorasecos/productos/nuez.jpg"
+      },
+      {
+        "key": "mix",
+        "name": "Mix",
+        "description": "Frutos secos y semillas ya mezclados",
+        "color": "#7A3E9D",
+        "darkText": false,
+        "image": "/editions/distribuidorasecos/productos/mix-frutos-secos.jpg"
+      },
+      {
+        "key": "confitados",
+        "name": "Maní confitado",
+        "description": "Más de 30 sabores",
+        "color": "#D9302A",
+        "darkText": false,
+        "image": "/editions/distribuidorasecos/productos/mani-confitado-tradicional.jpg"
+      },
+      {
+        "key": "chocolatados",
+        "name": "Bañados en chocolate",
+        "description": "Cholitos, almendras, café y pasas",
+        "color": "#6B3A1F",
+        "darkText": false,
+        "image": "/editions/distribuidorasecos/productos/cholito-cafe.jpg"
+      },
+      {
+        "key": "frutas-deshidratadas",
+        "name": "Frutas deshidratadas",
+        "description": "Higos, dátiles, kiwi, piña, pasas",
+        "color": "#C8245E",
+        "darkText": false,
+        "image": "/editions/distribuidorasecos/productos/higos-deshidratados.jpg"
+      },
+      {
+        "key": "snacks",
+        "name": "Snacks",
+        "description": "Maní japonés, banana salada, crocantes",
+        "color": "#E08A00",
+        "darkText": true,
+        "image": "/editions/distribuidorasecos/productos/mani-japones-sesamo.jpg"
+      },
+      {
+        "key": "semillas",
+        "name": "Semillas",
+        "description": "Chía, linaza, zapallo, sésamo, maravilla",
+        "color": "#3D6F8E",
+        "darkText": false,
+        "image": "/editions/distribuidorasecos/productos/chia.jpg"
+      },
+      {
+        "key": "cereales",
+        "name": "Avena y granola",
+        "description": "Granolas, avena y quinoa pop",
+        "color": "#B8862B",
+        "darkText": true,
+        "image": "/editions/distribuidorasecos/productos/granola-vegana.jpg"
+      },
+      {
+        "key": "legumbres-y-granos",
+        "name": "Legumbres y granos",
+        "description": "Lentejas, porotos, quinoa, arroz",
+        "color": "#2F8A4B",
+        "darkText": false,
+        "image": "/editions/distribuidorasecos/productos/lenteja-4mm.jpg"
+      },
+      {
+        "key": "gomitas",
+        "name": "Gomitas sin gluten",
+        "description": "Ositos, gusanitos, anillos y más",
+        "color": "#E5487F",
+        "darkText": false,
+        "image": "/editions/distribuidorasecos/productos/gomita-anillo-acido.jpg"
+      },
+      {
+        "key": "despensa",
+        "name": "Despensa y repostería",
+        "description": "Cacao, coco, harina de almendra, sal",
+        "color": "#8A5A3C",
+        "darkText": false,
+        "image": "/editions/distribuidorasecos/productos/harina-de-almendra.jpg"
+      },
+      {
+        "key": "te-e-infusiones",
+        "name": "Té e infusiones",
+        "description": "Té negro, verde, rojo, blanco y jamaica",
+        "color": "#4E6B2E",
+        "darkText": false,
+        "image": "/editions/distribuidorasecos/productos/te-ceylan.jpg"
+      }
+    ],
+    "products": [
+      {
+        "key": "almendra-nonpareil",
+        "name": "Almendra Nonpareil",
+        "category": "frutos-secos",
+        "sku": "12-11",
+        "net": {
+          "base": 12999,
+          "bulk": 10990
+        },
+        "description": "Almendra entera variedad Nonpareil, cosecha 2026: grande, pareja y de sabor suave. Para picar, hacer leche vegetal o repostería.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [
+          "cosecha 2026"
+        ],
+        "image": "/editions/distribuidorasecos/productos/almendra-nonpareil.jpg",
+        "imageIsReferential": true,
+        "featured": true
+      },
+      {
+        "key": "almendra-carmel",
+        "name": "Almendra Carmel",
+        "category": "frutos-secos",
+        "net": {
+          "base": 11990,
+          "bulk": 9990
+        },
+        "description": "Almendra entera variedad Carmel, cosecha 2026. Más alargada que la Nonpareil y muy versátil: snack, granola o almendra laminada casera.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [
+          "cosecha 2026"
+        ],
+        "image": "/editions/distribuidorasecos/productos/almendra-carmel.jpg",
+        "imageIsReferential": true,
+        "featured": false
+      },
+      {
+        "key": "almendra-tostada",
+        "name": "Almendra tostada",
+        "category": "frutos-secos",
+        "sku": "00-000",
+        "net": {
+          "base": 10990,
+          "bulk": 9990
+        },
+        "description": "Almendra entera tostada, sin sal. Crocante y aromática, lista para comer sola o sumar a ensaladas y yogur.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/almendra-tostada.jpg",
+        "imageIsReferential": true,
+        "featured": false
+      },
+      {
+        "key": "almendra-tostada-salada",
+        "name": "Almendra tostada salada",
+        "category": "frutos-secos",
+        "sku": "00-02",
+        "net": {
+          "base": 10490,
+          "bulk": 9990
+        },
+        "description": "Almendra entera tostada con un toque de sal. El aperitivo clásico para compartir.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/almendra-tostada-salada.jpg",
+        "imageIsReferential": true,
+        "featured": false
+      },
+      {
+        "key": "caju-tostado-natural",
+        "name": "Castaña de cajú tostada natural",
+        "category": "frutos-secos",
+        "sku": "110-2",
+        "net": {
+          "base": 14990,
+          "bulk": 12990
+        },
+        "description": "Castaña de cajú entera tostada, sin sal. Cremosa y suave, ideal para snack, salteados o cremas veganas.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/caju-tostado-natural.jpg",
+        "imageIsReferential": true,
+        "featured": true
+      },
+      {
+        "key": "caju-tostado-salado",
+        "name": "Castaña de cajú tostada salada",
+        "category": "frutos-secos",
+        "sku": "110-1",
+        "net": {
+          "base": 14990,
+          "bulk": 12990
+        },
+        "description": "Castaña de cajú entera tostada y salada. Un aperitivo infaltable para la once o el picoteo.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/caju-tostado-salado.jpg",
+        "imageIsReferential": true,
+        "featured": false
+      },
+      {
+        "key": "nuez-mariposa-extra-light",
+        "name": "Nuez mariposa extra light",
+        "category": "frutos-secos",
+        "sku": "19-2",
+        "net": {
+          "base": 8190,
+          "bulk": 7990
+        },
+        "description": "Nuez en mariposa, calibre extra y color light, cosecha 2026. Mitades enteras y claras para repostería, ensaladas o comer al natural.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [
+          "cosecha 2026"
+        ],
+        "image": "/editions/distribuidorasecos/productos/nuez.jpg",
+        "featured": true
+      },
+      {
+        "key": "pistacho-tostado-salado",
+        "name": "Pistacho tostado salado",
+        "category": "frutos-secos",
+        "sku": "55",
+        "net": {
+          "base": 15490,
+          "bulk": 14690
+        },
+        "description": "Pistacho tostado y salado, muy sabroso para el aperitivo.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/pistacho-tostado-salado.jpg",
+        "imageIsReferential": true,
+        "featured": false
+      },
+      {
+        "key": "pistacho-tostado-sin-sal",
+        "name": "Pistacho tostado sin sal",
+        "category": "frutos-secos",
+        "sku": "22",
+        "net": {
+          "base": 15490,
+          "bulk": 14690
+        },
+        "description": "Pistacho tostado sin sal agregada, para picar o usar en repostería.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/pistacho-tostado-sin-sal.jpg",
+        "imageIsReferential": true,
+        "featured": false
+      },
+      {
+        "key": "mani-premium-salado",
+        "name": "Maní premium tostado salado",
+        "category": "frutos-secos",
+        "sku": "11-20",
+        "net": {
+          "base": 3690,
+          "bulk": 3190
+        },
+        "description": "Maní pelado de grano grande, tostado y salado. El maní de siempre, en calidad premium.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/mani-premium-salado.jpg",
+        "imageIsReferential": true,
+        "featured": false
+      },
+      {
+        "key": "mani-premium-sin-sal",
+        "name": "Maní premium tostado sin sal",
+        "category": "frutos-secos",
+        "sku": "25",
+        "net": {
+          "base": 3690,
+          "bulk": 3190
+        },
+        "description": "Maní pelado de grano grande, tostado y sin sal. Para picar, hacer mantequilla de maní o sumar a tus preparaciones.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/mani-premium-sin-sal.jpg",
+        "imageIsReferential": true,
+        "featured": false
+      },
+      {
+        "key": "mani-premium-merken",
+        "name": "Maní premium tostado merkén",
+        "category": "frutos-secos",
+        "sku": "11-24",
+        "net": {
+          "base": 3890,
+          "bulk": 3190
+        },
+        "description": "Maní tostado con merkén, el ají ahumado mapuche. Sabroso y levemente picante.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/mani-premium-merken.jpg",
+        "imageIsReferential": true,
+        "featured": false
+      },
+      {
+        "key": "mani-con-cascara",
+        "name": "Maní con cáscara tostado",
+        "category": "frutos-secos",
+        "sku": "11-19",
+        "net": {
+          "base": 3890,
+          "bulk": 3690
+        },
+        "description": "Maní tostado en su cáscara, para pelar y comer. Un clásico de estadio y de once.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/mani-con-cascara.jpg",
+        "featured": false
+      },
+      {
+        "key": "mani-cuticula",
+        "name": "Maní cutícula tostado",
+        "category": "frutos-secos",
+        "sku": "11-17",
+        "net": {
+          "base": 3190,
+          "bulk": 2890
+        },
+        "description": "Maní tostado con su piel (cutícula) rojiza, que le da un sabor más intenso y tostado.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/mani-con-piel.jpg",
+        "featured": false
+      },
+      {
+        "key": "mix-frutos-secos-con-sal",
+        "name": "Mix frutos secos con sal",
+        "category": "mix",
+        "sku": "00.01",
+        "net": {
+          "base": 5100,
+          "bulk": 4200
+        },
+        "description": "Nuez, maní, pasas y almendras con un toque de sal. El mix clásico para colaciones y picoteo.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/mix-frutos-secos.jpg",
+        "featured": true
+      },
+      {
+        "key": "mix-frutos-secos-sin-sal",
+        "name": "Mix frutos secos sin sal",
+        "category": "mix",
+        "sku": "00.00",
+        "net": {
+          "base": 5100,
+          "bulk": 4200
+        },
+        "description": "Nuez, maní, pasas y almendras, sin sal agregada. Energía práctica para la oficina, el colegio o el deporte.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/mix-frutos-secos.jpg",
+        "featured": false
+      },
+      {
+        "key": "mix-premium",
+        "name": "Mix premium",
+        "category": "mix",
+        "sku": "21-155",
+        "net": {
+          "base": 4990,
+          "bulk": 4590
+        },
+        "description": "Castaña de cajú, maní confitado de colores, banana chip y pasa rubia. Dulce, crocante y muy vistoso.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/mix-premium.jpg",
+        "poster": "/editions/distribuidorasecos/afiches/mix-premium.jpg",
+        "featured": true
+      },
+      {
+        "key": "mix-goji",
+        "name": "Mix goji",
+        "category": "mix",
+        "sku": "00-01",
+        "net": {
+          "base": 9076,
+          "bulk": 7076
+        },
+        "description": "Almendra, nuez, cranberry y goji. Un mix de frutos rojos y secos, sin maní.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/mix-goji.jpg",
+        "poster": "/editions/distribuidorasecos/afiches/mix-goji.jpg",
+        "featured": true
+      },
+      {
+        "key": "mix-keto",
+        "name": "Mix keto",
+        "category": "mix",
+        "sku": "00-04",
+        "net": {
+          "base": 5850,
+          "bulk": 4900
+        },
+        "description": "Semilla de maravilla, coco chip, almendra, nuez y semilla de zapallo. Sin pasas ni azúcar agregada.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/mix-keto.jpg",
+        "poster": "/editions/distribuidorasecos/afiches/mix-keto.jpg",
+        "featured": true
+      },
+      {
+        "key": "mix-semillas",
+        "name": "Mix de semillas",
+        "category": "mix",
+        "sku": "00-06",
+        "net": {
+          "base": 4000,
+          "bulk": 3300
+        },
+        "description": "Linaza, maravilla y chía. Para espolvorear en ensaladas, yogur, panes y batidos.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/mix-semillas.jpg",
+        "featured": false
+      },
+      {
+        "key": "mix-himalaya-natural",
+        "name": "Mix Himalaya natural",
+        "category": "mix",
+        "sku": "10-10",
+        "net": {
+          "base": 6585,
+          "bulk": 5400
+        },
+        "description": "Castaña de cajú, almendra, semilla de zapallo y maní, todo natural sin sal.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/mix-himalaya-natural.jpg",
+        "imageIsReferential": true,
+        "featured": false
+      },
+      {
+        "key": "mix-himalaya-salado",
+        "name": "Mix Himalaya salado",
+        "category": "mix",
+        "sku": "00-05",
+        "net": {
+          "base": 6585,
+          "bulk": 5400
+        },
+        "description": "Castaña de cajú salada, almendra, semilla de zapallo y maní salado. Para el aperitivo.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/mix-himalaya-salado.jpg",
+        "imageIsReferential": true,
+        "featured": false
+      },
+      {
+        "key": "mix-running",
+        "name": "Mix running",
+        "category": "mix",
+        "sku": "00-03",
+        "net": {
+          "base": 6500,
+          "bulk": 5490
+        },
+        "description": "Nuez, almendra, banana chip y maní: un mix energético pensado para antes o después de entrenar.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/mix-running.jpg",
+        "imageIsReferential": true,
+        "featured": false
+      },
+      {
+        "key": "mix-tropical",
+        "name": "Mix nuez, pasas, maní, almendra y coco",
+        "category": "mix",
+        "sku": "0000",
+        "net": {
+          "base": 6550,
+          "bulk": 4300
+        },
+        "description": "Nuez, pasa rubia, pasa negra, maní, almendra y coco chip. Dulzor natural de las pasas y el coco.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/mix-tropical.jpg",
+        "imageIsReferential": true,
+        "featured": false
+      },
+      {
+        "key": "mix-pasa-rubia-jumbo-natural",
+        "name": "Mix frutos secos con pasa rubia jumbo natural",
+        "category": "mix",
+        "sku": "2-2",
+        "net": {
+          "base": 7000,
+          "bulk": 5540
+        },
+        "description": "Frutos secos con pasa rubia jumbo, sin sal. Las pasas grandes y doradas le dan un dulzor suave.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/mix-pasa-rubia-jumbo-natural.jpg",
+        "imageIsReferential": true,
+        "featured": false
+      },
+      {
+        "key": "mix-pasa-rubia-jumbo-salado",
+        "name": "Mix frutos secos con pasa rubia jumbo salado",
+        "category": "mix",
+        "net": {
+          "base": 7000,
+          "bulk": 5540
+        },
+        "description": "Frutos secos salados con pasa rubia jumbo: el contraste dulce y salado que encanta.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/mix-pasa-rubia-jumbo-salado.jpg",
+        "imageIsReferential": true,
+        "featured": false
+      },
+      {
+        "key": "mix-frutos-secos-natural",
+        "name": "Mix frutos secos natural",
+        "category": "mix",
+        "net": {
+          "base": 6090,
+          "bulk": 4090
+        },
+        "description": "Mezcla de frutos secos al natural, sin sal agregada. Para colaciones de todos los días.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/mix-frutos-secos-natural.jpg",
+        "imageIsReferential": true,
+        "featured": false
+      },
+      {
+        "key": "mix-frutos-secos-salado",
+        "name": "Mix frutos secos salado",
+        "category": "mix",
+        "sku": "21-2",
+        "net": {
+          "base": 6090,
+          "bulk": 4090
+        },
+        "description": "Mezcla de frutos secos tostados y salados, lista para servir en el aperitivo.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/mix-frutos-secos-salado.jpg",
+        "imageIsReferential": true,
+        "featured": false
+      },
+      {
+        "key": "mix-pasa-morena-salado",
+        "name": "Mix frutos secos con pasa morena salado",
+        "category": "mix",
+        "net": {
+          "base": 6090,
+          "bulk": 4090
+        },
+        "description": "Frutos secos salados con pasa morena. Dulce y salado en cada puñado.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/mix-pasa-morena-salado.jpg",
+        "imageIsReferential": true,
+        "featured": false
+      },
+      {
+        "key": "mix-pasa-morena-sin-sal",
+        "name": "Mix frutos secos con pasa morena sin sal",
+        "category": "mix",
+        "sku": "21-6",
+        "net": {
+          "base": 6090,
+          "bulk": 4090
+        },
+        "description": "Frutos secos con pasa morena, sin sal agregada.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/mix-pasa-morena-sin-sal.jpg",
+        "imageIsReferential": true,
+        "featured": false
+      },
+      {
+        "key": "mix-avena-integral",
+        "name": "Mix avena integral, pasa morena, nuez y almendra",
+        "category": "mix",
+        "net": {
+          "base": 3400,
+          "bulk": 3100
+        },
+        "description": "Avena integral con pasa morena, nuez y almendra. Base lista para desayunos, porridge o granola casera.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/mix-avena-integral.jpg",
+        "imageIsReferential": true,
+        "featured": false
+      },
+      {
+        "key": "mix-avena-semillas",
+        "name": "Mix avena, linaza, maravilla y chía",
+        "category": "mix",
+        "sku": "8",
+        "net": {
+          "base": 2500,
+          "bulk": 2200
+        },
+        "description": "Avena con linaza, semilla de maravilla y chía. Para el desayuno, batidos o pan casero.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/mix-avena-semillas.jpg",
+        "imageIsReferential": true,
+        "featured": false
+      },
+      {
+        "key": "mani-confitado-tradicional",
+        "name": "Maní confitado tradicional",
+        "category": "confitados",
+        "sku": "11-35",
+        "net": {
+          "base": 2500,
+          "bulk": 2300
+        },
+        "description": "El maní confitado de siempre: maní tostado con cobertura crocante de azúcar.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/mani-confitado-tradicional.jpg",
+        "featured": true
+      },
+      {
+        "key": "mani-confitado-coco",
+        "name": "Maní confitado coco",
+        "category": "confitados",
+        "sku": "11-25",
+        "net": {
+          "base": 2500,
+          "bulk": 2300
+        },
+        "description": "Maní confitado cubierto con coco rallado. Crocante y con todo el aroma del coco.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/mani-confitado-coco.jpg",
+        "featured": false
+      },
+      {
+        "key": "mani-confitado-sesamo",
+        "name": "Maní confitado sésamo",
+        "category": "confitados",
+        "sku": "11-33",
+        "net": {
+          "base": 2500,
+          "bulk": 2300
+        },
+        "description": "Maní confitado con sésamo tostado en la cobertura. Menos dulce y muy crocante.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/mani-sesamo.jpg",
+        "featured": false
+      },
+      {
+        "key": "mani-confitado-arandano",
+        "name": "Maní confitado arándano",
+        "category": "confitados",
+        "sku": "10-3-4",
+        "net": {
+          "base": 2500,
+          "bulk": 2300
+        },
+        "description": "Maní tostado con cobertura crocante sabor arándano. Para picar, regalar o armar tu propio mix de colores.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/mani-confitado-tradicional.jpg",
+        "imageIsReferential": true,
+        "featured": false
+      },
+      {
+        "key": "mani-confitado-capuccino",
+        "name": "Maní confitado capuccino",
+        "category": "confitados",
+        "sku": "11-16",
+        "net": {
+          "base": 2500,
+          "bulk": 2300
+        },
+        "description": "Maní tostado con cobertura crocante sabor capuccino. Para picar, regalar o armar tu propio mix de colores.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/mani-confitado-tradicional.jpg",
+        "imageIsReferential": true,
+        "featured": false
+      },
+      {
+        "key": "mani-confitado-chirimoya",
+        "name": "Maní confitado chirimoya",
+        "category": "confitados",
+        "sku": "11-26",
+        "net": {
+          "base": 2500,
+          "bulk": 2300
+        },
+        "description": "Maní tostado con cobertura crocante sabor chirimoya. Para picar, regalar o armar tu propio mix de colores.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/mani-confitado-tradicional.jpg",
+        "imageIsReferential": true,
+        "featured": false
+      },
+      {
+        "key": "mani-confitado-chocolate",
+        "name": "Maní confitado chocolate",
+        "category": "confitados",
+        "sku": "26-1",
+        "net": {
+          "base": 2500,
+          "bulk": 2300
+        },
+        "description": "Maní tostado con cobertura crocante sabor chocolate. Para picar, regalar o armar tu propio mix de colores.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/mani-confitado-tradicional.jpg",
+        "imageIsReferential": true,
+        "featured": false
+      },
+      {
+        "key": "mani-confitado-maracuya",
+        "name": "Maní confitado maracuyá",
+        "category": "confitados",
+        "sku": "11-36",
+        "net": {
+          "base": 2500,
+          "bulk": 2300
+        },
+        "description": "Maní tostado con cobertura crocante sabor maracuyá. Para picar, regalar o armar tu propio mix de colores.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/mani-confitado-tradicional.jpg",
+        "imageIsReferential": true,
+        "featured": false
+      },
+      {
+        "key": "mani-confitado-miel",
+        "name": "Maní confitado miel",
+        "category": "confitados",
+        "sku": "11-1",
+        "net": {
+          "base": 2500,
+          "bulk": 2300
+        },
+        "description": "Maní tostado con cobertura crocante sabor miel. Para picar, regalar o armar tu propio mix de colores.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/mani-confitado-tradicional.jpg",
+        "imageIsReferential": true,
+        "featured": false
+      },
+      {
+        "key": "mani-confitado-miel-merken",
+        "name": "Maní confitado miel merkén",
+        "category": "confitados",
+        "sku": "11-34",
+        "net": {
+          "base": 2500,
+          "bulk": 2300
+        },
+        "description": "Maní tostado con cobertura crocante sabor miel merkén. Para picar, regalar o armar tu propio mix de colores.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/mani-confitado-tradicional.jpg",
+        "imageIsReferential": true,
+        "featured": false
+      },
+      {
+        "key": "mani-confitado-extra-acido",
+        "name": "Maní confitado extra ácido",
+        "category": "confitados",
+        "sku": "20-7",
+        "net": {
+          "base": 2500,
+          "bulk": 2300
+        },
+        "description": "Maní tostado con cobertura crocante sabor extra ácido. Para picar, regalar o armar tu propio mix de colores.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/mani-confitado-tradicional.jpg",
+        "imageIsReferential": true,
+        "featured": false
+      },
+      {
+        "key": "mani-confitado-frambuesa",
+        "name": "Maní confitado frambuesa",
+        "category": "confitados",
+        "sku": "11-18-11",
+        "net": {
+          "base": 2500,
+          "bulk": 2300
+        },
+        "description": "Maní tostado con cobertura crocante sabor frambuesa. Para picar, regalar o armar tu propio mix de colores.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/mani-confitado-tradicional.jpg",
+        "imageIsReferential": true,
+        "featured": false
+      },
+      {
+        "key": "mani-confitado-frutilla",
+        "name": "Maní confitado frutilla",
+        "category": "confitados",
+        "sku": "11-18",
+        "net": {
+          "base": 2500,
+          "bulk": 2300
+        },
+        "description": "Maní tostado con cobertura crocante sabor frutilla. Para picar, regalar o armar tu propio mix de colores.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/mani-confitado-tradicional.jpg",
+        "imageIsReferential": true,
+        "featured": false
+      },
+      {
+        "key": "mani-confitado-guinda",
+        "name": "Maní confitado guinda",
+        "category": "confitados",
+        "sku": "11-23",
+        "net": {
+          "base": 2500,
+          "bulk": 2300
+        },
+        "description": "Maní tostado con cobertura crocante sabor guinda. Para picar, regalar o armar tu propio mix de colores.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/mani-confitado-tradicional.jpg",
+        "imageIsReferential": true,
+        "featured": false
+      },
+      {
+        "key": "mani-confitado-leche-condensada",
+        "name": "Maní confitado leche condensada",
+        "category": "confitados",
+        "sku": "12-62",
+        "net": {
+          "base": 2500,
+          "bulk": 2300
+        },
+        "description": "Maní tostado con cobertura crocante sabor leche condensada. Para picar, regalar o armar tu propio mix de colores.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/mani-confitado-tradicional.jpg",
+        "imageIsReferential": true,
+        "featured": false
+      },
+      {
+        "key": "mani-confitado-limon",
+        "name": "Maní confitado limón",
+        "category": "confitados",
+        "sku": "11-13",
+        "net": {
+          "base": 2500,
+          "bulk": 2300
+        },
+        "description": "Maní tostado con cobertura crocante sabor limón. Para picar, regalar o armar tu propio mix de colores.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/mani-confitado-tradicional.jpg",
+        "imageIsReferential": true,
+        "featured": false
+      },
+      {
+        "key": "mani-confitado-mango",
+        "name": "Maní confitado mango",
+        "category": "confitados",
+        "sku": "11-15",
+        "net": {
+          "base": 2500,
+          "bulk": 2300
+        },
+        "description": "Maní tostado con cobertura crocante sabor mango. Para picar, regalar o armar tu propio mix de colores.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/mani-confitado-tradicional.jpg",
+        "imageIsReferential": true,
+        "featured": false
+      },
+      {
+        "key": "mani-confitado-menta",
+        "name": "Maní confitado menta",
+        "category": "confitados",
+        "sku": "11-11",
+        "net": {
+          "base": 2500,
+          "bulk": 2300
+        },
+        "description": "Maní tostado con cobertura crocante sabor menta. Para picar, regalar o armar tu propio mix de colores.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/mani-confitado-tradicional.jpg",
+        "imageIsReferential": true,
+        "featured": false
+      },
+      {
+        "key": "mani-confitado-mora",
+        "name": "Maní confitado mora",
+        "category": "confitados",
+        "sku": "11-22-11",
+        "net": {
+          "base": 2500,
+          "bulk": 2300
+        },
+        "description": "Maní tostado con cobertura crocante sabor mora. Para picar, regalar o armar tu propio mix de colores.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/mani-confitado-tradicional.jpg",
+        "imageIsReferential": true,
+        "featured": false
+      },
+      {
+        "key": "mani-confitado-naranja",
+        "name": "Maní confitado naranja",
+        "category": "confitados",
+        "sku": "11-28",
+        "net": {
+          "base": 2500,
+          "bulk": 2300
+        },
+        "description": "Maní tostado con cobertura crocante sabor naranja. Para picar, regalar o armar tu propio mix de colores.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/mani-confitado-tradicional.jpg",
+        "imageIsReferential": true,
+        "featured": false
+      },
+      {
+        "key": "mani-confitado-pistacho",
+        "name": "Maní confitado pistacho",
+        "category": "confitados",
+        "sku": "11-31",
+        "net": {
+          "base": 2500,
+          "bulk": 2300
+        },
+        "description": "Maní tostado con cobertura crocante sabor pistacho. Para picar, regalar o armar tu propio mix de colores.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/mani-confitado-tradicional.jpg",
+        "imageIsReferential": true,
+        "featured": false
+      },
+      {
+        "key": "mani-confitado-platano",
+        "name": "Maní confitado plátano",
+        "category": "confitados",
+        "sku": "11-30",
+        "net": {
+          "base": 2500,
+          "bulk": 2300
+        },
+        "description": "Maní tostado con cobertura crocante sabor plátano. Para picar, regalar o armar tu propio mix de colores.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/mani-confitado-tradicional.jpg",
+        "imageIsReferential": true,
+        "featured": false
+      },
+      {
+        "key": "mani-confitado-rojo-natural",
+        "name": "Maní confitado rojo natural",
+        "category": "confitados",
+        "sku": "21",
+        "net": {
+          "base": 2500,
+          "bulk": 2300
+        },
+        "description": "Maní tostado con cobertura crocante sabor rojo natural. Para picar, regalar o armar tu propio mix de colores.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/mani-confitado-tradicional.jpg",
+        "imageIsReferential": true,
+        "featured": false
+      },
+      {
+        "key": "mani-confitado-sandia",
+        "name": "Maní confitado sandía",
+        "category": "confitados",
+        "sku": "11-27",
+        "net": {
+          "base": 2500,
+          "bulk": 2300
+        },
+        "description": "Maní tostado con cobertura crocante sabor sandía. Para picar, regalar o armar tu propio mix de colores.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/mani-confitado-tradicional.jpg",
+        "imageIsReferential": true,
+        "featured": false
+      },
+      {
+        "key": "mani-confitado-sour",
+        "name": "Maní confitado sour",
+        "category": "confitados",
+        "sku": "11-21",
+        "net": {
+          "base": 2500,
+          "bulk": 2300
+        },
+        "description": "Maní tostado con cobertura crocante sabor sour. Para picar, regalar o armar tu propio mix de colores.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/mani-confitado-tradicional.jpg",
+        "imageIsReferential": true,
+        "featured": false
+      },
+      {
+        "key": "mani-confitado-suspiro-limeno",
+        "name": "Maní confitado suspiro limeño",
+        "category": "confitados",
+        "sku": "11-12",
+        "net": {
+          "base": 2500,
+          "bulk": 2300
+        },
+        "description": "Maní tostado con cobertura crocante sabor suspiro limeño. Para picar, regalar o armar tu propio mix de colores.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/mani-confitado-tradicional.jpg",
+        "imageIsReferential": true,
+        "featured": false
+      },
+      {
+        "key": "mani-confitado-tutti-frutti",
+        "name": "Maní confitado tutti frutti",
+        "category": "confitados",
+        "sku": "11-14",
+        "net": {
+          "base": 2500,
+          "bulk": 2300
+        },
+        "description": "Maní tostado con cobertura crocante sabor tutti frutti. Para picar, regalar o armar tu propio mix de colores.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/mani-confitado-tradicional.jpg",
+        "imageIsReferential": true,
+        "featured": false
+      },
+      {
+        "key": "mani-confitado-frutos-del-bosque",
+        "name": "Maní confitado frutos del bosque",
+        "category": "confitados",
+        "sku": "59-2",
+        "net": {
+          "base": 2500,
+          "bulk": 2300
+        },
+        "description": "Maní tostado con cobertura crocante sabor frutos del bosque. Para picar, regalar o armar tu propio mix de colores.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/mani-confitado-tradicional.jpg",
+        "imageIsReferential": true,
+        "featured": false
+      },
+      {
+        "key": "mani-confitado-pina",
+        "name": "Maní confitado piña",
+        "category": "confitados",
+        "sku": "11-32",
+        "net": {
+          "base": 2650,
+          "bulk": 2300
+        },
+        "description": "Maní tostado con cobertura crocante sabor piña.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/mani-confitado-tradicional.jpg",
+        "imageIsReferential": true,
+        "featured": false
+      },
+      {
+        "key": "mani-confitado-mix-sabores",
+        "name": "Maní confitado mix de sabores",
+        "category": "confitados",
+        "sku": "21-7",
+        "net": {
+          "base": 2500,
+          "bulk": 2300
+        },
+        "description": "Una mezcla de maní confitado de distintos sabores y colores. El favorito para cumpleaños y cotillón.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/mix-premium.jpg",
+        "imageIsReferential": true,
+        "featured": false
+      },
+      {
+        "key": "maravilla-confitada",
+        "name": "Maravilla confitada",
+        "category": "confitados",
+        "sku": "11-29",
+        "net": {
+          "base": 2400,
+          "bulk": 2190
+        },
+        "description": "Semilla de maravilla con cobertura de azúcar de colores. Para decorar tortas, helados o comer a puñados.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "texture": "mani",
+        "featured": false
+      },
+      {
+        "key": "almendra-confitada",
+        "name": "Almendra confitada",
+        "category": "confitados",
+        "sku": "16-6",
+        "net": {
+          "base": 8500,
+          "bulk": 7490
+        },
+        "description": "Almendra entera con cobertura crocante de azúcar. Un clásico de regalo y de mesa dulce.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "texture": "mani",
+        "featured": false
+      },
+      {
+        "key": "almendra-confitada-sesamo",
+        "name": "Almendra confitada sésamo",
+        "category": "confitados",
+        "sku": "16-7",
+        "net": {
+          "base": 8600,
+          "bulk": 7490
+        },
+        "description": "Almendra confitada con sésamo en la cobertura: crocante y menos dulce.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "texture": "mani",
+        "featured": false
+      },
+      {
+        "key": "cholito-chocolate",
+        "name": "Cholito bañado en chocolate",
+        "category": "chocolatados",
+        "sku": "10-3-6",
+        "net": {
+          "base": 4690,
+          "bulk": 3990
+        },
+        "description": "Bolitas de cereal crocante bañadas en chocolate (6% cacao). Un dulce para la once o para compartir.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/cholito-cafe.jpg",
+        "poster": "/editions/distribuidorasecos/afiches/cholito-chocolate.jpg",
+        "featured": true
+      },
+      {
+        "key": "cholito-blanco",
+        "name": "Cholito blanco",
+        "category": "chocolatados",
+        "sku": "10-03-2007",
+        "net": {
+          "base": 4790,
+          "bulk": 4290
+        },
+        "description": "Bolitas de cereal crocante con cobertura blanca. Suaves y muy crocantes.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/cholito-blanco.jpg",
+        "featured": false
+      },
+      {
+        "key": "almendra-chocolate-leche",
+        "name": "Almendra bañada en chocolate de leche",
+        "category": "chocolatados",
+        "sku": "10-03-2005",
+        "net": {
+          "base": 14990,
+          "bulk": 12990
+        },
+        "description": "Almendra tostada entera cubierta con chocolate de leche. Para regalar o darse un gusto.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "texture": "choco",
+        "featured": false
+      },
+      {
+        "key": "mani-banado-chocolate",
+        "name": "Maní bañado en chocolate",
+        "category": "chocolatados",
+        "sku": "26",
+        "net": {
+          "base": 4690,
+          "bulk": 4490
+        },
+        "description": "Maní tostado cubierto con chocolate (6% cacao). El chocolatado más pedido.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/mani-banado-chocolate.jpg",
+        "imageIsReferential": true,
+        "featured": false
+      },
+      {
+        "key": "cafe-banado-chocolate",
+        "name": "Café en grano bañado en chocolate",
+        "category": "chocolatados",
+        "sku": "01-01-2003",
+        "net": {
+          "base": 12990,
+          "bulk": 11990
+        },
+        "description": "Grano de café tostado cubierto con chocolate (6% cacao). Intenso, para acompañar el café.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/cafe-banado-chocolate.jpg",
+        "imageIsReferential": true,
+        "featured": false
+      },
+      {
+        "key": "pasas-al-ron-chocolate",
+        "name": "Pasas al ron bañadas en chocolate",
+        "category": "chocolatados",
+        "sku": "01-01-2002",
+        "net": {
+          "base": 6900,
+          "bulk": 5990
+        },
+        "description": "Pasas maceradas al ron y cubiertas con chocolate (6% cacao).",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/pasas-al-ron-chocolate.jpg",
+        "imageIsReferential": true,
+        "featured": false
+      },
+      {
+        "key": "higo-tiernizado",
+        "name": "Higo deshidratado tiernizado",
+        "category": "frutas-deshidratadas",
+        "sku": "106",
+        "net": {
+          "base": 7500,
+          "bulk": 6100
+        },
+        "description": "Higo seco tiernizado, cosecha 2026: blando, jugoso y naturalmente dulce. Para comer solo, con queso o en repostería.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [
+          "cosecha 2026"
+        ],
+        "image": "/editions/distribuidorasecos/productos/higos-deshidratados.jpg",
+        "poster": "/editions/distribuidorasecos/afiches/higo-tiernizado.jpg",
+        "featured": true
+      },
+      {
+        "key": "datil-sin-carozo",
+        "name": "Dátil sin carozo",
+        "category": "frutas-deshidratadas",
+        "sku": "87-1",
+        "net": {
+          "base": 4990,
+          "bulk": 4690
+        },
+        "description": "Dátil sin carozo, blando y dulce. Ideal para endulzar batidos y preparar barritas o bolitas energéticas.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/datil-sin-carozo.jpg",
+        "poster": "/editions/distribuidorasecos/afiches/datil-sin-carozo.jpg",
+        "featured": true
+      },
+      {
+        "key": "kiwi-en-lonjas",
+        "name": "Kiwi en lonjas",
+        "category": "frutas-deshidratadas",
+        "sku": "56-3",
+        "net": {
+          "base": 8700,
+          "bulk": 8500
+        },
+        "description": "Rodajas de kiwi deshidratado, dulces y levemente ácidas. Muy vistosas en tablas y mix.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/kiwi-en-lonja.jpg",
+        "poster": "/editions/distribuidorasecos/afiches/kiwi-en-lonjas.jpg",
+        "featured": false
+      },
+      {
+        "key": "pomelo-verde",
+        "name": "Pomelo verde en lonjas",
+        "category": "frutas-deshidratadas",
+        "sku": "23",
+        "net": {
+          "base": 6000,
+          "bulk": 5500
+        },
+        "description": "Cáscara de pomelo confitada en lonjas: cítrica, dulce y con un toque amargo.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/pomelo-en-lonjas.jpg",
+        "featured": false
+      },
+      {
+        "key": "pasa-rubia-jumbo",
+        "name": "Pasa rubia jumbo",
+        "category": "frutas-deshidratadas",
+        "sku": "75-2",
+        "net": {
+          "base": 5900,
+          "bulk": 5790
+        },
+        "description": "Pasa rubia (ámbar) categoría 1, calibre jumbo, cosecha 2026. Grande, carnosa y dulce.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [
+          "cosecha 2026"
+        ],
+        "image": "/editions/distribuidorasecos/productos/pasa-ambar.jpg",
+        "featured": false
+      },
+      {
+        "key": "pasa-morena",
+        "name": "Pasa morena",
+        "category": "frutas-deshidratadas",
+        "sku": "57-1",
+        "net": {
+          "base": 3700
+        },
+        "description": "Pasa morena categoría 1, cosecha 2026. Para queques, pan de pascua, ensaladas y mix.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [
+          "cosecha 2026"
+        ],
+        "image": "/editions/distribuidorasecos/productos/pasa-morena.jpg",
+        "imageIsReferential": true,
+        "featured": false
+      },
+      {
+        "key": "cranberry",
+        "name": "Cranberry (arándano rojo)",
+        "category": "frutas-deshidratadas",
+        "sku": "73-4",
+        "net": {
+          "base": 7100,
+          "bulk": 6790
+        },
+        "description": "Arándano rojo deshidratado y endulzado. Para granolas, ensaladas y repostería.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/cranberry.jpg",
+        "imageIsReferential": true,
+        "featured": false
+      },
+      {
+        "key": "goji",
+        "name": "Goji",
+        "category": "frutas-deshidratadas",
+        "sku": "96-1",
+        "net": {
+          "base": 9500,
+          "bulk": 8990
+        },
+        "description": "Bayas de goji deshidratadas, de sabor dulce y levemente ácido. Para yogur, batidos o mix.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/goji.jpg",
+        "imageIsReferential": true,
+        "featured": false
+      },
+      {
+        "key": "banana-chip-dulce",
+        "name": "Banana chip dulce",
+        "category": "frutas-deshidratadas",
+        "sku": "86",
+        "net": {
+          "base": 6190,
+          "bulk": 5999
+        },
+        "description": "Rodajas de plátano deshidratado y crocante, levemente endulzadas.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/banana-chip-dulce.jpg",
+        "imageIsReferential": true,
+        "featured": false
+      },
+      {
+        "key": "ciruela-con-carozo",
+        "name": "Ciruela con carozo 50/60",
+        "category": "frutas-deshidratadas",
+        "sku": "83-6",
+        "net": {
+          "base": 5600,
+          "bulk": 4500
+        },
+        "description": "Ciruela deshidratada con carozo, calibre 50/60, cosecha 2026. Para comer sola o en postres.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [
+          "cosecha 2026"
+        ],
+        "texture": "pasa",
+        "featured": false
+      },
+      {
+        "key": "papaya-bastones",
+        "name": "Papaya en bastones",
+        "category": "frutas-deshidratadas",
+        "sku": "11-11-11-1",
+        "net": {
+          "base": 6990,
+          "bulk": 6390
+        },
+        "description": "Bastones de papaya deshidratada y confitada, dulces y de color intenso.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/papaya-bastones.jpg",
+        "imageIsReferential": true,
+        "featured": false
+      },
+      {
+        "key": "papaya-roja-bastones",
+        "name": "Papaya roja en bastones",
+        "category": "frutas-deshidratadas",
+        "sku": "57",
+        "net": {
+          "base": 7535,
+          "bulk": 6279
+        },
+        "description": "Bastones de papaya roja deshidratada y confitada.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/papaya-roja-bastones.jpg",
+        "imageIsReferential": true,
+        "featured": false
+      },
+      {
+        "key": "pina-cubos",
+        "name": "Piña en cubos",
+        "category": "frutas-deshidratadas",
+        "sku": "24-2",
+        "net": {
+          "base": 6990,
+          "bulk": 6790
+        },
+        "description": "Cubos de piña deshidratada y confitada, ideales para mix, queques y pan de pascua.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "texture": "pasa",
+        "featured": false
+      },
+      {
+        "key": "pina-rodajas",
+        "name": "Piña en rodajas",
+        "category": "frutas-deshidratadas",
+        "sku": "56",
+        "net": {
+          "base": 8200,
+          "bulk": 7990
+        },
+        "description": "Rodajas de piña deshidratada y confitada, dulces y jugosas.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/pina-rodajas.jpg",
+        "imageIsReferential": true,
+        "featured": false
+      },
+      {
+        "key": "mango-lonja",
+        "name": "Mango en lonjas",
+        "category": "frutas-deshidratadas",
+        "sku": "A-8",
+        "net": {
+          "base": 7990,
+          "bulk": 7690
+        },
+        "description": "Lonjas de mango deshidratado y confitado, dulces y de textura suave.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "texture": "pasa",
+        "featured": false
+      },
+      {
+        "key": "aloe-vera-lonja",
+        "name": "Aloe vera en lonjas",
+        "category": "frutas-deshidratadas",
+        "sku": "10-1-1",
+        "net": {
+          "base": 6990,
+          "bulk": 6590
+        },
+        "description": "Lonjas de aloe vera confitado, de sabor suave y textura gomosa.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "texture": "pasa",
+        "featured": false
+      },
+      {
+        "key": "jengibre-lonja",
+        "name": "Jengibre en lonjas",
+        "category": "frutas-deshidratadas",
+        "sku": "53",
+        "net": {
+          "base": 7290,
+          "bulk": 6990
+        },
+        "description": "Jengibre confitado en lonjas: dulce y picante. Para infusiones, repostería o picar.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "texture": "pasa",
+        "featured": false
+      },
+      {
+        "key": "huesillo-mediano",
+        "name": "Huesillo mediano",
+        "category": "frutas-deshidratadas",
+        "sku": "78-11",
+        "net": {
+          "base": 6500,
+          "bulk": 5790
+        },
+        "description": "Durazno deshidratado (huesillo) mediano, cosecha 2025. La base del mote con huesillo.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [
+          "cosecha 2025"
+        ],
+        "image": "/editions/distribuidorasecos/productos/huesillo-mediano.jpg",
+        "imageIsReferential": true,
+        "featured": false
+      },
+      {
+        "key": "huesillo-extra",
+        "name": "Huesillo extra",
+        "category": "frutas-deshidratadas",
+        "sku": "78-12",
+        "net": {
+          "base": 6000,
+          "bulk": 5990
+        },
+        "description": "Huesillo calibre extra, cosecha 2025. Grande y carnoso, para el mote con huesillo.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [
+          "cosecha 2025"
+        ],
+        "image": "/editions/distribuidorasecos/productos/huesillo-extra.jpg",
+        "imageIsReferential": true,
+        "featured": false
+      },
+      {
+        "key": "fruta-confitada-marrasquino",
+        "name": "Fruta confitada marrasquino",
+        "category": "frutas-deshidratadas",
+        "sku": "10",
+        "net": {
+          "base": 3690,
+          "bulk": 3190
+        },
+        "description": "Fruta confitada tipo marrasquino (Rocofrut) para pan de pascua, queques y decoración.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "texture": "pasa",
+        "featured": false
+      },
+      {
+        "key": "damasco-turco",
+        "name": "Damasco turco",
+        "category": "frutas-deshidratadas",
+        "sku": "72",
+        "description": "Damasco turco deshidratado, entero y blando.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500,
+            "stock": "out"
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000,
+            "stock": "out"
+          }
+        ],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/damasco-turco.jpg",
+        "imageIsReferential": true,
+        "featured": false
+      },
+      {
+        "key": "pasa-morena-flame",
+        "name": "Pasa morena flame",
+        "category": "frutas-deshidratadas",
+        "sku": "75-3",
+        "description": "Pasa morena variedad Flame, de grano grande y sabor intenso.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500,
+            "stock": "out"
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000,
+            "stock": "out"
+          }
+        ],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/pasa-morena-flame.jpg",
+        "imageIsReferential": true,
+        "featured": false
+      },
+      {
+        "key": "pasa-rubia",
+        "name": "Pasa rubia",
+        "category": "frutas-deshidratadas",
+        "sku": "74",
+        "description": "Pasa rubia de calibre estándar.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500,
+            "stock": "out"
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000,
+            "stock": "out"
+          }
+        ],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/pasa-ambar.jpg",
+        "imageIsReferential": true,
+        "featured": false
+      },
+      {
+        "key": "mani-japones-sesamo",
+        "name": "Maní japonés con sésamo",
+        "category": "snacks",
+        "sku": "11-4",
+        "net": {
+          "base": 5900,
+          "bulk": 5380
+        },
+        "description": "Maní japonés grande con cobertura crocante y sésamo. Salado y adictivo.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/mani-japones-sesamo.jpg",
+        "poster": "/editions/distribuidorasecos/afiches/mani-japones-sesamo.jpg",
+        "featured": true
+      },
+      {
+        "key": "mani-japones-natural",
+        "name": "Maní japonés natural (Crokissimo)",
+        "category": "snacks",
+        "sku": "12-6",
+        "net": {
+          "base": 5650,
+          "bulk": 4600
+        },
+        "description": "Maní japonés clásico con cobertura crocante salada.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/mani-japones-natural.jpg",
+        "imageIsReferential": true,
+        "featured": false
+      },
+      {
+        "key": "mani-japones-cebolla",
+        "name": "Maní japonés cebolla (Crokissimo)",
+        "category": "snacks",
+        "sku": "12-61",
+        "net": {
+          "base": 5650,
+          "bulk": 4600
+        },
+        "description": "Maní japonés con cobertura crocante sabor cebolla.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/mani-japones-cebolla.jpg",
+        "imageIsReferential": true,
+        "featured": false
+      },
+      {
+        "key": "mani-japones-pimienta",
+        "name": "Maní japonés pimienta",
+        "category": "snacks",
+        "sku": "12-63",
+        "net": {
+          "base": 5650,
+          "bulk": 4600
+        },
+        "description": "Maní japonés con cobertura crocante y pimienta (Crokissimo y Pettiz).",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/mani-japones-pimienta.jpg",
+        "imageIsReferential": true,
+        "featured": false
+      },
+      {
+        "key": "banana-salada",
+        "name": "Banana salada",
+        "category": "snacks",
+        "sku": "86-1",
+        "net": {
+          "base": 8990
+        },
+        "description": "Chips de plátano crocantes y salados. Precio de lanzamiento (antes $14.990 + IVA el kilo).",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [
+          "oferta de lanzamiento"
+        ],
+        "image": "/editions/distribuidorasecos/productos/banana-salada.jpg",
+        "imageIsReferential": true,
+        "featured": false
+      },
+      {
+        "key": "crocante-de-zapallo",
+        "name": "Crocante de zapallo",
+        "category": "snacks",
+        "sku": "16-4",
+        "net": {
+          "base": 9190,
+          "bulk": 8990
+        },
+        "description": "Crocante de semilla de zapallo, en trozos. Un snack dulce para la once o la colación.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/crocante-de-zapallo.jpg",
+        "poster": "/editions/distribuidorasecos/afiches/crocante-de-zapallo.jpg",
+        "featured": true
+      },
+      {
+        "key": "chia",
+        "name": "Semilla de chía",
+        "category": "semillas",
+        "sku": "5-2",
+        "net": {
+          "base": 4700,
+          "bulk": 4300
+        },
+        "description": "Semilla de chía para puddings, batidos, panes o como reemplazo de huevo en recetas veganas.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/chia.jpg",
+        "imageIsReferential": true,
+        "featured": false
+      },
+      {
+        "key": "linaza",
+        "name": "Semilla de linaza",
+        "category": "semillas",
+        "sku": "27",
+        "net": {
+          "base": 2500,
+          "bulk": 2300
+        },
+        "description": "Linaza entera. Muélela al momento para sumarla a panes, avena o batidos.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/linaza.jpg",
+        "imageIsReferential": true,
+        "featured": false
+      },
+      {
+        "key": "semilla-zapallo",
+        "name": "Semilla de zapallo",
+        "category": "semillas",
+        "sku": "35-1",
+        "net": {
+          "base": 6390,
+          "bulk": 5800
+        },
+        "description": "Semilla de zapallo pelada, verde y crocante. Para ensaladas, panes y mix.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/semilla-zapallo.jpg",
+        "imageIsReferential": true,
+        "featured": false
+      },
+      {
+        "key": "sesamo-blanco",
+        "name": "Sésamo blanco",
+        "category": "semillas",
+        "sku": "32-2",
+        "net": {
+          "base": 4300,
+          "bulk": 3690
+        },
+        "description": "Sésamo blanco para panes, sushi, salteados o tahini casero.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/sesamo-blanco.jpg",
+        "imageIsReferential": true,
+        "featured": false
+      },
+      {
+        "key": "maravilla-sin-cascara",
+        "name": "Maravilla sin cáscara natural",
+        "category": "semillas",
+        "sku": "29-1",
+        "net": {
+          "base": 2790,
+          "bulk": 2600
+        },
+        "description": "Semilla de maravilla pelada al natural. Para ensaladas, panes, granola o picar.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/maravilla-sin-cascara.jpg",
+        "imageIsReferential": true,
+        "featured": false
+      },
+      {
+        "key": "granola-vegana",
+        "name": "Granola vegana",
+        "category": "cereales",
+        "sku": "54",
+        "net": {
+          "base": 5500,
+          "bulk": 4590
+        },
+        "description": "Avena, cranberry, linaza y almendra Nonpareil, endulzada con jarabe de agave y azúcar. Sin miel.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/granola-vegana.jpg",
+        "featured": true
+      },
+      {
+        "key": "granola-premium",
+        "name": "Granola premium",
+        "category": "cereales",
+        "sku": "54-4",
+        "net": {
+          "base": 5700,
+          "bulk": 4500
+        },
+        "description": "Avena, cranberry, linaza y almendra Nonpareil, endulzada con miel multiflora y azúcar.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/granola-vegana.jpg",
+        "imageIsReferential": true,
+        "featured": false
+      },
+      {
+        "key": "granola-miel",
+        "name": "Granola miel",
+        "category": "cereales",
+        "net": {
+          "base": 2900,
+          "bulk": 2500
+        },
+        "description": "Avena endulzada con miel multiflora y azúcar. Crocante, para yogur o leche.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/granola-miel.jpg",
+        "imageIsReferential": true,
+        "featured": false
+      },
+      {
+        "key": "avena-instantanea",
+        "name": "Avena instantánea / integral",
+        "category": "cereales",
+        "sku": "52",
+        "net": {
+          "base": 1300,
+          "bulk": 1100
+        },
+        "description": "Avena en hojuelas de cocción rápida para porridge, batidos, galletas y queques.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/avena-instantanea.jpg",
+        "imageIsReferential": true,
+        "featured": false
+      },
+      {
+        "key": "hojuela-avena-integral",
+        "name": "Hojuela de avena integral",
+        "category": "cereales",
+        "sku": "78-3",
+        "net": {
+          "base": 1300,
+          "bulk": 1100
+        },
+        "description": "Hojuela de avena integral gruesa, para granola casera, porridge y repostería.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/hojuela-avena-integral.jpg",
+        "imageIsReferential": true,
+        "featured": false
+      },
+      {
+        "key": "avena-mash-sin-gluten",
+        "name": "Avena Mash sin gluten 800 g",
+        "category": "cereales",
+        "net": {
+          "base": 3500
+        },
+        "unit": "bolsa de 800 g",
+        "description": "Avena Mash sin gluten en formato de 800 g.",
+        "formats": [],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/avena-mash-sin-gluten.jpg",
+        "imageIsReferential": true,
+        "featured": false
+      },
+      {
+        "key": "avena-mash-instantanea",
+        "name": "Avena Mash instantánea 750 g",
+        "category": "cereales",
+        "net": {
+          "base": 2790,
+          "bulk": 2400
+        },
+        "unit": "bolsa de 750 g",
+        "description": "Avena Mash instantánea en formato de 750 g.",
+        "formats": [],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/avena-mash-instantanea.jpg",
+        "imageIsReferential": true,
+        "featured": false
+      },
+      {
+        "key": "quinoa-pop-endulzada",
+        "name": "Quinoa pop endulzada",
+        "category": "cereales",
+        "sku": "47",
+        "net": {
+          "base": 6390,
+          "bulk": 5990
+        },
+        "description": "Quinoa inflada endulzada con azúcar. Crocante para el desayuno o barritas caseras.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/quinoa-pop-endulzada.jpg",
+        "imageIsReferential": true,
+        "featured": false
+      },
+      {
+        "key": "quinoa-pop-sin-azucar",
+        "name": "Quinoa pop sin azúcar",
+        "category": "cereales",
+        "sku": "50-1",
+        "net": {
+          "base": 8190,
+          "bulk": 7500
+        },
+        "description": "Quinoa inflada sin azúcar agregada, para yogur, ensaladas o barritas.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/quinoa-pop-sin-azucar.jpg",
+        "imageIsReferential": true,
+        "featured": false
+      },
+      {
+        "key": "lenteja-4mm",
+        "name": "Lenteja 4 mm",
+        "category": "legumbres-y-granos",
+        "sku": "95-1",
+        "net": {
+          "base": 1990,
+          "bulk": 1590
+        },
+        "description": "Lenteja calibre 4 mm, la más usada en casa para guisos y ensaladas.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/lenteja-4mm.jpg",
+        "imageIsReferential": true,
+        "featured": false
+      },
+      {
+        "key": "lenteja-laird-6mm",
+        "name": "Lenteja Laird 6 mm",
+        "category": "legumbres-y-granos",
+        "sku": "55-5",
+        "net": {
+          "base": 2300,
+          "bulk": 2190
+        },
+        "description": "Lenteja Laird de calibre grande (6 mm), ideal para guisos.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/lenteja-laird-6mm.jpg",
+        "imageIsReferential": true,
+        "featured": false
+      },
+      {
+        "key": "lenteja-roja",
+        "name": "Lenteja roja sin piel",
+        "category": "legumbres-y-granos",
+        "sku": "95-11",
+        "net": {
+          "base": 2500,
+          "bulk": 1900
+        },
+        "description": "Lenteja roja pelada de cocción rápida, para cremas, dal y hamburguesas vegetales.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/lenteja-roja.jpg",
+        "imageIsReferential": true,
+        "featured": false
+      },
+      {
+        "key": "lenteja-beluga",
+        "name": "Lenteja negra beluga",
+        "category": "legumbres-y-granos",
+        "sku": "95-3",
+        "net": {
+          "base": 2400,
+          "bulk": 1990
+        },
+        "description": "Lenteja negra pequeña que mantiene su forma al cocerse. Perfecta para ensaladas.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/lenteja-beluga.jpg",
+        "imageIsReferential": true,
+        "featured": false
+      },
+      {
+        "key": "garbanzo-sin-piel",
+        "name": "Garbanzo sin piel entero",
+        "category": "legumbres-y-granos",
+        "sku": "11-22",
+        "net": {
+          "base": 1790,
+          "bulk": 1590
+        },
+        "description": "Garbanzo entero pelado, para hummus más suave, guisos y ensaladas.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/garbanzo-sin-piel.jpg",
+        "imageIsReferential": true,
+        "featured": false
+      },
+      {
+        "key": "poroto-negro",
+        "name": "Poroto negro",
+        "category": "legumbres-y-granos",
+        "sku": "55-1",
+        "net": {
+          "base": 2100,
+          "bulk": 1800
+        },
+        "description": "Poroto negro para guisos, burritos, ensaladas y hamburguesas vegetales.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/poroto-negro.jpg",
+        "imageIsReferential": true,
+        "featured": false
+      },
+      {
+        "key": "poroto-tortola",
+        "name": "Poroto tórtola",
+        "category": "legumbres-y-granos",
+        "sku": "94-5",
+        "net": {
+          "base": 2900,
+          "bulk": 2500
+        },
+        "description": "Poroto tórtola para porotos granados, guisos y ensaladas.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/poroto-tortola.jpg",
+        "imageIsReferential": true,
+        "featured": false
+      },
+      {
+        "key": "quinoa-blanca",
+        "name": "Quinoa blanca importada",
+        "category": "legumbres-y-granos",
+        "sku": "7-7",
+        "net": {
+          "base": 4250,
+          "bulk": 4100
+        },
+        "description": "Quinoa blanca importada para ensaladas, guarniciones y sopas.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/quinoa-blanca.jpg",
+        "imageIsReferential": true,
+        "featured": false
+      },
+      {
+        "key": "quinoa-negra",
+        "name": "Quinoa negra",
+        "category": "legumbres-y-granos",
+        "sku": "44",
+        "net": {
+          "base": 4290,
+          "bulk": 4190
+        },
+        "description": "Quinoa negra, de grano firme y sabor más terroso. Muy vistosa en ensaladas.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "texture": "lenteja",
+        "featured": false
+      },
+      {
+        "key": "quinoa-roja",
+        "name": "Quinoa roja",
+        "category": "legumbres-y-granos",
+        "sku": "46",
+        "net": {
+          "base": 4490,
+          "bulk": 3990
+        },
+        "description": "Quinoa roja de grano firme para ensaladas y guarniciones.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/quinoa-roja.jpg",
+        "imageIsReferential": true,
+        "featured": false
+      },
+      {
+        "key": "arroz-integral",
+        "name": "Arroz integral importado",
+        "category": "legumbres-y-granos",
+        "sku": "91",
+        "net": {
+          "base": 1400,
+          "bulk": 1000
+        },
+        "description": "Arroz integral de grano largo.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "texture": "lenteja",
+        "featured": false
+      },
+      {
+        "key": "carne-de-soya-mediana",
+        "name": "Carne de soya mediana",
+        "category": "legumbres-y-granos",
+        "sku": "92-4",
+        "net": {
+          "base": 2990,
+          "bulk": 1790
+        },
+        "description": "Proteína de soya texturizada en trozos medianos, para guisos, salsas y rellenos.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/carne-de-soya-mediana.jpg",
+        "imageIsReferential": true,
+        "featured": false
+      },
+      {
+        "key": "trigo-mote",
+        "name": "Trigo mote",
+        "category": "legumbres-y-granos",
+        "sku": "13594",
+        "net": {
+          "base": 2000,
+          "bulk": 1550
+        },
+        "description": "Trigo mote para el mote con huesillo, ensaladas y guisos.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/trigo-mote.jpg",
+        "imageIsReferential": true,
+        "featured": false
+      },
+      {
+        "key": "maiz-curagua",
+        "name": "Maíz curagua (pop corn)",
+        "category": "legumbres-y-granos",
+        "sku": "95-12",
+        "net": {
+          "base": 1200,
+          "bulk": 1000
+        },
+        "description": "Maíz curagua para hacer cabritas en casa.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/maiz-curagua.jpg",
+        "imageIsReferential": true,
+        "featured": false
+      },
+      {
+        "key": "arroz-basmati",
+        "name": "Arroz basmati",
+        "category": "legumbres-y-granos",
+        "sku": "92",
+        "description": "Arroz basmati de grano largo y aromático.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500,
+            "stock": "out"
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000,
+            "stock": "out"
+          }
+        ],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/arroz-basmati.jpg",
+        "imageIsReferential": true,
+        "featured": false
+      },
+      {
+        "key": "carne-de-soya-grande",
+        "name": "Carne de soya grande",
+        "category": "legumbres-y-granos",
+        "sku": "92-3",
+        "description": "Proteína de soya texturizada en trozos grandes.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500,
+            "stock": "out"
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000,
+            "stock": "out"
+          }
+        ],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/carne-de-soya-grande.jpg",
+        "imageIsReferential": true,
+        "featured": false
+      },
+      {
+        "key": "poroto-mung",
+        "name": "Poroto mung",
+        "category": "legumbres-y-granos",
+        "sku": "94",
+        "description": "Poroto mung para germinar, guisos y sopas.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500,
+            "stock": "out"
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000,
+            "stock": "out"
+          }
+        ],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/poroto-mung.jpg",
+        "imageIsReferential": true,
+        "featured": false
+      },
+      {
+        "key": "quinoa-tricolor",
+        "name": "Quinoa tricolor",
+        "category": "legumbres-y-granos",
+        "sku": "44-1",
+        "description": "Mezcla de quinoa blanca, roja y negra.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500,
+            "stock": "out"
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000,
+            "stock": "out"
+          }
+        ],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/quinoa-tricolor.jpg",
+        "imageIsReferential": true,
+        "featured": false
+      },
+      {
+        "key": "gomita-anillo-acido",
+        "name": "Gomita anillo ácido 600 g",
+        "category": "gomitas",
+        "sku": "80",
+        "net": {
+          "base": 2990,
+          "bulk": 2495
+        },
+        "unit": "bolsa de 600 g",
+        "description": "Gomita anillo ácido sin gluten, en bolsa de 600 g. Para cumpleaños, cotillón o el antojo.",
+        "formats": [],
+        "tags": [
+          "sin gluten"
+        ],
+        "image": "/editions/distribuidorasecos/productos/gomita-anillo-acido.jpg",
+        "imageIsReferential": true,
+        "featured": false
+      },
+      {
+        "key": "gomita-banana",
+        "name": "Gomita banana frutal 500 g",
+        "category": "gomitas",
+        "sku": "A-11",
+        "net": {
+          "base": 2990,
+          "bulk": 2495
+        },
+        "unit": "bolsa de 500 g",
+        "description": "Gomita banana frutal sin gluten, en bolsa de 500 g. Para cumpleaños, cotillón o el antojo.",
+        "formats": [],
+        "tags": [
+          "sin gluten"
+        ],
+        "image": "/editions/distribuidorasecos/productos/gomita-banana.jpg",
+        "imageIsReferential": true,
+        "featured": false
+      },
+      {
+        "key": "gomita-cherry-sour",
+        "name": "Gomita cherry sour 500 g",
+        "category": "gomitas",
+        "sku": "A-13",
+        "net": {
+          "base": 2990,
+          "bulk": 2495
+        },
+        "unit": "bolsa de 500 g",
+        "description": "Gomita cherry sour sin gluten, en bolsa de 500 g. Para cumpleaños, cotillón o el antojo.",
+        "formats": [],
+        "tags": [
+          "sin gluten"
+        ],
+        "image": "/editions/distribuidorasecos/productos/gomita-cherry-sour.jpg",
+        "imageIsReferential": true,
+        "featured": false
+      },
+      {
+        "key": "gomita-gusanito-acido",
+        "name": "Gomita gusanito ácido 500 g",
+        "category": "gomitas",
+        "sku": "A-9",
+        "net": {
+          "base": 2990,
+          "bulk": 2495
+        },
+        "unit": "bolsa de 500 g",
+        "description": "Gomita gusanito ácido sin gluten, en bolsa de 500 g. Para cumpleaños, cotillón o el antojo.",
+        "formats": [],
+        "tags": [
+          "sin gluten"
+        ],
+        "image": "/editions/distribuidorasecos/productos/gomita-gusanito-acido.jpg",
+        "imageIsReferential": true,
+        "featured": false
+      },
+      {
+        "key": "gomita-mora",
+        "name": "Gomita mora 500 g",
+        "category": "gomitas",
+        "sku": "A-12",
+        "net": {
+          "base": 2990,
+          "bulk": 2495
+        },
+        "unit": "bolsa de 500 g",
+        "description": "Gomita mora sin gluten, en bolsa de 500 g. Para cumpleaños, cotillón o el antojo.",
+        "formats": [],
+        "tags": [
+          "sin gluten"
+        ],
+        "image": "/editions/distribuidorasecos/productos/gomita-mora.jpg",
+        "imageIsReferential": true,
+        "featured": false
+      },
+      {
+        "key": "gomita-osito",
+        "name": "Gomita osito 500 g",
+        "category": "gomitas",
+        "sku": "A-2",
+        "net": {
+          "base": 2990,
+          "bulk": 2495
+        },
+        "unit": "bolsa de 500 g",
+        "description": "Gomita osito sin gluten, en bolsa de 500 g. Para cumpleaños, cotillón o el antojo.",
+        "formats": [],
+        "tags": [
+          "sin gluten"
+        ],
+        "image": "/editions/distribuidorasecos/productos/gomita-osito.jpg",
+        "imageIsReferential": true,
+        "featured": false
+      },
+      {
+        "key": "gomita-princess",
+        "name": "Gomita Princess 1 kg",
+        "category": "gomitas",
+        "net": {
+          "base": 4200,
+          "bulk": 3490
+        },
+        "unit": "bolsa de 1 kg",
+        "description": "Gomitas Princess sin gluten en bolsa de 1 kg.",
+        "formats": [],
+        "tags": [
+          "sin gluten"
+        ],
+        "image": "/editions/distribuidorasecos/productos/gomita-princess.jpg",
+        "imageIsReferential": true,
+        "featured": false
+      },
+      {
+        "key": "harina-de-almendra",
+        "name": "Harina de almendra sin piel",
+        "category": "despensa",
+        "sku": "54-2",
+        "net": {
+          "base": 14990,
+          "bulk": 13990
+        },
+        "description": "Harina de almendra blanqueada (sin piel) importada, fina para macarons, queques y repostería sin gluten.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/harina-de-almendra.jpg",
+        "imageIsReferential": true,
+        "featured": false
+      },
+      {
+        "key": "cacao-peruano",
+        "name": "Cacao peruano 100% natural",
+        "category": "despensa",
+        "sku": "1120",
+        "net": {
+          "base": 11990,
+          "bulk": 11500
+        },
+        "description": "Cacao en polvo peruano 100% natural, sin azúcar. Para repostería, batidos y chocolate caliente.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/cacao-peruano.jpg",
+        "imageIsReferential": true,
+        "featured": false
+      },
+      {
+        "key": "coco-chip",
+        "name": "Coco chip natural",
+        "category": "despensa",
+        "sku": "65-2",
+        "net": {
+          "base": 8390,
+          "bulk": 7500
+        },
+        "description": "Láminas de coco natural, para granola, tostar o decorar.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/coco-chip.jpg",
+        "imageIsReferential": true,
+        "featured": false
+      },
+      {
+        "key": "coco-rallado",
+        "name": "Coco rallado medio",
+        "category": "despensa",
+        "sku": "65-7",
+        "net": {
+          "base": 5290,
+          "bulk": 4990
+        },
+        "description": "Coco rallado de corte medio para queques, galletas, alfajores y coberturas.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/coco-rallado.jpg",
+        "imageIsReferential": true,
+        "featured": false
+      },
+      {
+        "key": "pasta-de-mani",
+        "name": "Pasta de maní Many 500 g",
+        "category": "despensa",
+        "sku": "1-1-3",
+        "net": {
+          "base": 2800,
+          "bulk": 2300
+        },
+        "unit": "frasco de 500 g",
+        "description": "Pasta de maní Many en frasco de 500 g, para untar, batidos y salsas.",
+        "formats": [],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/pasta-de-mani.jpg",
+        "imageIsReferential": true,
+        "featured": false
+      },
+      {
+        "key": "aceite-de-coco",
+        "name": "Aceite de coco 220 ml",
+        "category": "despensa",
+        "sku": "1-2",
+        "net": {
+          "base": 4100,
+          "bulk": 3500
+        },
+        "unit": "frasco de 220 ml",
+        "description": "Aceite de coco en frasco de 220 ml, para cocinar, hornear o uso cosmético.",
+        "formats": [],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/aceite-de-coco.jpg",
+        "imageIsReferential": true,
+        "featured": false
+      },
+      {
+        "key": "bicarbonato",
+        "name": "Bicarbonato de sodio",
+        "category": "despensa",
+        "sku": "1",
+        "net": {
+          "base": 1200,
+          "bulk": 890
+        },
+        "description": "Bicarbonato de sodio para repostería y usos del hogar.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/bicarbonato.jpg",
+        "imageIsReferential": true,
+        "featured": false
+      },
+      {
+        "key": "sal-de-mar-gruesa",
+        "name": "Sal de mar gruesa",
+        "category": "despensa",
+        "sku": "49-1",
+        "net": {
+          "base": 1200,
+          "bulk": 780
+        },
+        "description": "Sal de mar gruesa para asados, conservas y molinillo.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/sal-de-mar-gruesa.jpg",
+        "imageIsReferential": true,
+        "featured": false
+      },
+      {
+        "key": "harina-integral",
+        "name": "Harina integral",
+        "category": "despensa",
+        "sku": "105",
+        "description": "Harina de trigo integral para panes y queques.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500,
+            "stock": "out"
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000,
+            "stock": "out"
+          }
+        ],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/harina-integral.jpg",
+        "imageIsReferential": true,
+        "featured": false
+      },
+      {
+        "key": "sal-de-cahuil",
+        "name": "Sal fina de Cáhuil 100% natural",
+        "category": "despensa",
+        "sku": "5-1",
+        "description": "Sal fina de las salinas de Cáhuil, 100% natural.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500,
+            "stock": "out"
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000,
+            "stock": "out"
+          }
+        ],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/sal-de-cahuil.jpg",
+        "imageIsReferential": true,
+        "featured": false
+      },
+      {
+        "key": "te-ceylan",
+        "name": "Té Ceylán hoja larga",
+        "category": "te-e-infusiones",
+        "sku": "37-1",
+        "net": {
+          "base": 8100,
+          "bulk": 7690
+        },
+        "description": "Té negro Ceylán de hoja larga (STD 120), a granel. Aromático y de cuerpo medio.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/te-ceylan.jpg",
+        "imageIsReferential": true,
+        "featured": false
+      },
+      {
+        "key": "te-verde",
+        "name": "Té verde a granel",
+        "category": "te-e-infusiones",
+        "sku": "13520",
+        "net": {
+          "base": 7500,
+          "bulk": 6500
+        },
+        "description": "Té verde en hojas a granel, para infusión caliente o fría.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/te-verde.jpg",
+        "imageIsReferential": true,
+        "featured": false
+      },
+      {
+        "key": "te-rojo",
+        "name": "Té rojo",
+        "category": "te-e-infusiones",
+        "sku": "1111",
+        "net": {
+          "base": 6900,
+          "bulk": 6100
+        },
+        "description": "Té rojo a granel.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/te-rojo.jpg",
+        "imageIsReferential": true,
+        "featured": false
+      },
+      {
+        "key": "te-blanco",
+        "name": "Té blanco",
+        "category": "te-e-infusiones",
+        "sku": "13580",
+        "net": {
+          "base": 15990,
+          "bulk": 15750
+        },
+        "description": "Té blanco a granel, de sabor delicado y suave.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/te-blanco.jpg",
+        "imageIsReferential": true,
+        "featured": false
+      },
+      {
+        "key": "flor-de-jamaica",
+        "name": "Flor de jamaica",
+        "category": "te-e-infusiones",
+        "net": {
+          "base": 6990,
+          "bulk": 6690
+        },
+        "description": "Flor de jamaica (hibisco) deshidratada, para infusiones y aguas frescas de color rubí.",
+        "formats": [
+          {
+            "label": "500 g",
+            "grams": 500
+          },
+          {
+            "label": "1 kg",
+            "grams": 1000
+          }
+        ],
+        "tags": [],
+        "image": "/editions/distribuidorasecos/productos/flor-de-jamaica.jpg",
+        "imageIsReferential": true,
+        "featured": false
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Envíos a todo Chile",
+        "text": "Despachamos con empresas de transporte asociadas a cualquier ciudad."
+      },
+      {
+        "title": "Por kilo, desde 500 g",
+        "text": "Compra en bolsas de 500 g o 1 kg; desde 6 kg de un producto baja el precio por kilo."
+      },
+      {
+        "title": "Precios para negocios",
+        "text": "Desde 3 kg por producto, lista neta más IVA con factura."
+      }
+    ],
+    "mix": {
+      "title": "Arma tu mix mayorista",
+      "description": "Para tu negocio: elige hasta 6 ingredientes y cuánto quieres de cada uno (desde 600 g), con un mínimo de 3 kg por mix, a precio mayorista neto + IVA (tramo 3 a 5 kg).",
+      "grams": 3000,
+      "maxItems": 6,
+      "ingredients": [
+        {
+          "key": "mani-natural",
+          "name": "Maní tostado natural",
+          "color": "#C9A16B",
+          "pricePerKg": 3690,
+          "image": "/editions/distribuidorasecos/productos/mani-premium-sin-sal.jpg"
+        },
+        {
+          "key": "nuez",
+          "name": "Nuez",
+          "color": "#B07A45",
+          "pricePerKg": 8190,
+          "image": "/editions/distribuidorasecos/productos/nuez.jpg"
+        },
+        {
+          "key": "almendra",
+          "name": "Almendra",
+          "color": "#D9A066",
+          "pricePerKg": 12999,
+          "image": "/editions/distribuidorasecos/productos/almendra-nonpareil.jpg"
+        },
+        {
+          "key": "caju",
+          "name": "Castaña de cajú",
+          "color": "#E8C88F",
+          "pricePerKg": 14990,
+          "image": "/editions/distribuidorasecos/productos/caju-tostado-natural.jpg"
+        },
+        {
+          "key": "mani-confitado",
+          "name": "Maní confitado",
+          "color": "#D9302A",
+          "pricePerKg": 2500,
+          "image": "/editions/distribuidorasecos/productos/mani-confitado-tradicional.jpg"
+        },
+        {
+          "key": "cranberry",
+          "name": "Cranberry",
+          "color": "#C8245E",
+          "pricePerKg": 7100,
+          "image": "/editions/distribuidorasecos/productos/cranberry.jpg"
+        },
+        {
+          "key": "pasa",
+          "name": "Pasa rubia jumbo",
+          "color": "#E0AC4E",
+          "pricePerKg": 5900,
+          "image": "/editions/distribuidorasecos/productos/pasa-ambar.jpg"
+        },
+        {
+          "key": "goji",
+          "name": "Goji",
+          "color": "#E2492B",
+          "pricePerKg": 9500,
+          "image": "/editions/distribuidorasecos/productos/goji.jpg"
+        },
+        {
+          "key": "mani-chocolate",
+          "name": "Maní con chocolate",
+          "color": "#6B3A1F",
+          "pricePerKg": 4690,
+          "image": "/editions/distribuidorasecos/productos/mani-banado-chocolate.jpg"
+        },
+        {
+          "key": "semilla-zapallo",
+          "name": "Semilla de zapallo",
+          "color": "#5E7D3A",
+          "pricePerKg": 6390,
+          "image": "/editions/distribuidorasecos/productos/semilla-zapallo.jpg"
+        },
+        {
+          "key": "coco-chip",
+          "name": "Coco chip",
+          "color": "#E9E1CF",
+          "pricePerKg": 8390,
+          "image": "/editions/distribuidorasecos/productos/coco-chip.jpg"
+        }
+      ],
+      "wholesale": true,
+      "minIngredientGrams": 600,
+      "stepGrams": 100
+    },
+    "wholesale": {
+      "title": "¿Compras para tu negocio?",
+      "text": "Almacenes, cafeterías, pastelerías y revendedores: desde 3 kg por producto compras a precio mayorista (neto + IVA, con factura), y desde 6 kg el kilo baja aún más.",
+      "ctaLabel": "Cotizar pedido mayorista",
+      "ctaMessage": "Hola, tengo un negocio y quiero cotizar un pedido mayorista."
+    },
+    "reviews": [],
+    "howToBuyTitle": "Así de fácil es comprar",
+    "howToBuy": [
+      {
+        "title": "Arma tu carro",
+        "text": "Elige productos y formatos, o arma tu propio mix. No necesitas crear una cuenta."
+      },
+      {
+        "title": "Envía tu pedido",
+        "text": "Te respondemos con precio final, stock y costo de despacho a tu ciudad."
+      },
+      {
+        "title": "Paga y recibe",
+        "text": "Confirmas, pagas y lo despachamos con seguimiento hasta tu puerta."
+      }
+    ],
+    "deliveryTitle": "Despachamos de Arica a Punta Arenas",
+    "deliveryNote": "Trabajamos con empresas de transporte asociadas. El costo depende del destino y del peso; te lo informamos antes de que confirmes el pedido.",
+    "deliveryStops": [
+      "Arica",
+      "Antofagasta",
+      "La Serena",
+      "Santiago",
+      "Concepción",
+      "Puerto Montt",
+      "Punta Arenas"
+    ],
+    "orderGreeting": "Hola, quiero hacer este pedido:",
+    "pricing": {
+      "taxRate": 0.19,
+      "bulkFrom": 6,
+      "roundTo": 10,
+      "wholesaleMinimum": 3
+    },
+    "assistant": {
+      "name": "Andrea",
+      "identity": "Eres Andrea, la vendedora digital oficial de Secos SpA (Comercializadora Secos) para la atención por WhatsApp y el chat del sitio. Tu función principal es vender: entender la necesidad del cliente, calificarlo comercialmente, recomendar productos adecuados, cotizar con los precios vigentes y dejar la venta registrada para que el equipo confirme stock, transporte, pago y documentos.",
+      "aiDisclosure": "Soy Andrea, la vendedora virtual de Secos SpA. Puedo ayudarte a elegir productos, cotizar, modificar tu pedido, coordinar el despacho y gestionar tu compra. Cuando sea necesario, también puedo derivarte con una persona del equipo.",
+      "greeting": "¡Hola! 👋 Soy Andrea, de Secos SpA. Puedo ayudarte a elegir productos, cotizar compras, comparar alternativas de despacho y gestionar tu pedido. ¿Qué productos necesitas?",
+      "about": "Secos SpA / Comercializadora Secos vende y distribuye frutos secos, semillas, frutas deshidratadas, harinas y otros productos alimenticios del catálogo. Base operativa en Talagante, Región Metropolitana. Despacha dentro de Chile mediante empresas externas de transporte y recibe solicitudes de exportación. Sitio oficial: distribuidorasecos.cl (no uses el antiguo dominio comercializadorasecos.cl).",
+      "style": [
+        "Cercano, claro, comercial y profesional, en español de Chile sin exceso de modismos.",
+        "Mensajes breves, adecuados para WhatsApp; una o dos preguntas por mensaje; nunca más de tres mensajes seguidos sin esperar respuesta.",
+        "No vuelvas a pedir información que el cliente ya entregó.",
+        "Usa listas (•) para resumir productos, precios, cotizaciones y opciones de despacho. Emojis con moderación.",
+        "No presiones ni manipules. Siempre propone un próximo paso concreto (\"¿Qué cantidad necesitas?\", \"¿A qué comuna lo enviamos?\", \"¿Quieres que prepare la cotización?\"); nunca cierres sólo con \"avísame si necesitas algo\"."
+      ],
+      "policies": [
+        "Precios al público con IVA incluido; desde 6 kg de un mismo producto (en cualquier presentación) baja el precio por kilo.",
+        "Negocios: desde 3 kg por producto, lista mayorista neta + IVA, con factura. El mix mayorista se arma desde 3 kg, hasta 6 ingredientes de mínimo 600 g cada uno.",
+        "La venta se confirma antes de cobrar: el equipo informa stock, transporte y forma de pago.",
+        "Los productos marcados \"sin stock\" no se pueden pedir por ahora."
+      ],
+      "faqs": [],
+      "playbook": [
+        {
+          "title": "Objetivo de cada conversación",
+          "text": "Avanza hacia: identificar la necesidad, calificar al cliente, recomendar productos, confirmar productos y cantidades, cotizar (cotizar_pedido), elegir transporte, obtener la aceptación y dejar la venta registrada (registrar_pedido) para que el equipo confirme pago, despacho y documentos."
+        },
+        {
+          "title": "Calificación (pregunta de forma natural, sin interrogar)",
+          "text": "Descubre progresivamente: nombre; empresa y RUT si corresponde; producto, uso, formato o calibre; cantidad inicial; frecuencia y volumen mensual; fecha requerida; región, comuna y localidad; domicilio o sucursal; boleta o factura; criterio principal (precio, calidad, formato, disponibilidad o plazo). Clasifica el tipo de cliente (particular, emprendimiento, almacén o minimarket, panadería o pastelería, restaurante/cafetería/hotel, tienda de productos naturales, distribuidor, industria alimentaria, institución, comprador internacional, otro), el uso (consumo personal, reventa, elaboración, producción industrial, distribución, exportación, evento o compra institucional) y el nivel: PRIORITARIO (pide precio, cotización, stock o pago; productos y fecha definidos; compra en 30 días), RECURRENTE_POTENCIAL (reventa o producción periódica, busca proveedor estable), ESTRATEGICO (distribuidor, industria, cadena o exportador; gran volumen o condiciones especiales), EN_EXPLORACION (sólo consulta)."
+        },
+        {
+          "title": "Recomendación y venta consultiva",
+          "text": "Antes de recomendar entiende uso, volumen, formato y criterio de compra. Presenta como máximo tres alternativas del catálogo, cada una con su razón, y pregunta si quiere cotizar una o comparar. Puedes sugerir un formato de mayor volumen, una presentación más conveniente, otra alternativa de precio, productos complementarios para la misma preparación o una compra recurrente si el consumo es periódico."
+        },
+        {
+          "title": "Cotización",
+          "text": "Antes de cotizar valida productos, stock y precios con las herramientas. Muestra productos, cantidades, precio, total de productos con IVA (o neto + IVA si es mayorista), destino y que el transporte se cotiza aparte. Si el cliente cambia algo, vuelve a cotizar y muestra el nuevo detalle. Nunca inventes precios, stock ni descuentos, ni números de cotización."
+        },
+        {
+          "title": "Transporte",
+          "text": "Para el transporte necesitas región, comuna y localidad, domicilio o sucursal, prepagado o por pagar, peso aproximado, bultos y fecha requerida. Empresas candidatas: Starken (red nacional, cajas, sacos y encomiendas), Chilexpress y Blue Express (paquetería pequeña y mediana; Blue Express tiene puntos en Talagante), CorreosChile (útil para localidades alejadas), Pullman Cargo (cajas múltiples, sacos y carga mayorista), Varmontt (carga pesada y pedidos mayoristas, Arica a Punta Arenas, algunas localidades con días fijos) y Cruz del Sur Carga (centro-sur, Los Ríos, Los Lagos y Chiloé, con ruta confirmada). Ofrece 2 a 4 alternativas según la zona con modalidad y pago, siempre con valor y plazo \"por confirmar\": no tienes tarifas vigentes, así que nunca digas que una es la más barata o rápida y nunca asegures cobertura sin que el equipo la confirme."
+        },
+        {
+          "title": "Aceptación y pago",
+          "text": "Antes del pago resume: productos, cantidades, despacho (transportista y modalidad), destino, total de productos, transporte (por confirmar) y pide que confirme que todo está correcto. Luego registra la venta con registrar_pedido y ofrece transferencia bancaria con los datos oficiales. El pago por la página todavía no está disponible: no envíes enlaces de pago. Si el cliente envía un comprobante, la venta queda registrada con el pago en revisión hasta que administración confirme el abono: deriva a una persona con el monto, la fecha y el pagador que te indique."
+        },
+        {
+          "title": "Facturación",
+          "text": "Para factura pide razón social, RUT, giro, dirección tributaria, comuna, correo de facturación, teléfono y orden de compra si corresponde; repítelos para confirmar y déjalos en los comentarios del registro. No emites ni modificas facturas: eso lo hace administración."
+        },
+        {
+          "title": "Seguimiento y documentos",
+          "text": "Todavía no tienes acceso al estado de los pedidos, guías ni documentos: si el cliente pregunta por un pedido, despacho, guía, boleta o factura, pide el número de pedido y deriva a una persona. Nunca inventes números de seguimiento ni documentos."
+        },
+        {
+          "title": "Exportaciones",
+          "text": "Si el destino está fuera de Chile es una oportunidad internacional prioritaria (nivel ESTRATEGICO, tipo comprador internacional). Pide nombre y empresa, país y ciudad o puerto, producto, volumen, frecuencia, formato y embalaje, especificaciones, fecha requerida, Incoterm si lo conoce, puerto o aeropuerto, etiquetado, certificados requeridos, correo y teléfono con código de país. Di: \"Las operaciones internacionales se evalúan según producto, volumen, destino, requisitos sanitarios y logística. Registraré tus antecedentes para que exportaciones confirme la factibilidad y prepare una propuesta.\" Registra con registrar_pedido (puede ir sin productos) y deriva. No inventes certificados, mercados habilitados, capacidad, precios FOB/CIF, origen ni documentos."
+        },
+        {
+          "title": "Reclamos",
+          "text": "Pide número de pedido, producto, cantidad, fecha, descripción, fotografías (si no puedes verlas, que describa), lote, embalaje y transportista. No prometas devolución ni reposición. Cualquier posible problema sanitario (contaminación, cuerpo extraño, plaga, rotulación incorrecta o reacción adversa) se deriva con prioridad alta."
+        },
+        {
+          "title": "Antes de cada respuesta verifica",
+          "text": "¿Respondí exactamente lo solicitado? ¿Aproveché los datos ya entregados? ¿La información sale de las herramientas o de estas instrucciones? ¿Estoy inventando precio, stock, plazo, transporte o certificado? ¿Es apropiada para WhatsApp? ¿Hay un próximo paso comercial claro? ¿Necesito derivar a una persona?"
+        }
+      ],
+      "limits": [
+        "Nunca inventes información, confirmes stock sin la herramienta, cambies precios, apliques descuentos no autorizados ni prometas fechas o cobertura de transporte no confirmadas.",
+        "Nunca apruebes una transferencia ni marques una venta como pagada por un comprobante; nunca cambies los datos bancarios ni ofrezcas otra cuenta.",
+        "Nunca compartas datos ni documentos de otros clientes."
+      ]
+    },
+    "transfer": {
+      "holder": "Secos SpA",
+      "taxId": "11.111.111-1",
+      "bank": "Banco Santander",
+      "accountType": "Cuenta Corriente",
+      "accountNumber": "0-000-0000000-0",
+      "receiptsEmail": "contacto@distribuidorasecos.cl",
+      "receiptsCc": "contacto@distribuidorasecos.cl"
+    }
+  }
+}

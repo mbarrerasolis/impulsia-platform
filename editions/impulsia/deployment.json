@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "slug": "impulsia",
+  "appUrl": "https://impulsialabs.cl",
+  "vercel": {
+    "projectName": "impulsia",
+    "scope": "tu-equipo-vercel",
+    "projectId": "",
+    "orgId": "",
+    "customDomain": "impulsialabs.cl"
+  },
+  "supabase": {
+    "projectName": "impulsia",
+    "organizationId": "",
+    "projectRef": "",
+    "region": "sa-east-1",
+    "size": "micro"
+  },
+  "providers": {
+    "payment": "mock",
+    "flowEnvironment": "sandbox",
+    "email": "mock",
+    "whatsappBotEnabled": false
+  }
+}

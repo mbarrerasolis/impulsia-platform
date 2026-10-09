@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "slug": "distribuidorasecos",
+  "appUrl": "https://distribuidorasecos.cl",
+  "vercel": {
+    "projectName": "distribuidorasecos",
+    "scope": "tu-equipo-vercel",
+    "projectId": "",
+    "orgId": "",
+    "customDomain": "distribuidorasecos.cl"
+  },
+  "supabase": {
+    "projectName": "distribuidorasecos",
+    "organizationId": "",
+    "projectRef": "",
+    "region": "sa-east-1",
+    "size": ""
+  },
+  "providers": {
+    "payment": "mock",
+    "flowEnvironment": "sandbox",
+    "email": "mock",
+    "ai": "anthropic",
+    "whatsappBotEnabled": false
+  }
+}

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-4 4 156 164" role="img" aria-label="Comercializadora Secos"><title>Comercializadora Secos</title><g>
+  <path d="M74 8 C86 8 94 20 106 26 C132 38 148 66 148 97 C148 130 130 158 105 162 C93 164 81 158 74 151 C67 158 55 164 43 162 C18 158 0 130 0 97 C0 66 16 38 42 26 C54 20 62 8 74 8 Z" fill="#C07030" stroke="#1A1410" stroke-width="5.5" stroke-linejoin="round"/>
+  <path d="M70 30 C60 21 44 23 42 36 C27 33 18 46 26 58 C12 63 10 81 22 89 C13 100 20 115 35 113 C30 126 40 137 53 133 C57 143 67 143 69.5 133 Z" fill="#FDD58F" stroke="#1A1410" stroke-width="5" stroke-linejoin="round"/><path d="M41 44 c6 2 8 7 7 12" fill="none" stroke="#1A1410" stroke-width="2.6" stroke-linecap="round"/><path d="M27 82 c7 1 10 6 9 12" fill="none" stroke="#1A1410" stroke-width="2.6" stroke-linecap="round"/><path d="M48 121 c4 3 6 8 3 12" fill="none" stroke="#1A1410" stroke-width="2.6" stroke-linecap="round"/>
+  <g transform="matrix(-1 0 0 1 148 0)"><path d="M70 30 C60 21 44 23 42 36 C27 33 18 46 26 58 C12 63 10 81 22 89 C13 100 20 115 35 113 C30 126 40 137 53 133 C57 143 67 143 69.5 133 Z" fill="#FDD58F" stroke="#1A1410" stroke-width="5" stroke-linejoin="round"/><path d="M41 44 c6 2 8 7 7 12" fill="none" stroke="#1A1410" stroke-width="2.6" stroke-linecap="round"/><path d="M27 82 c7 1 10 6 9 12" fill="none" stroke="#1A1410" stroke-width="2.6" stroke-linecap="round"/><path d="M48 121 c4 3 6 8 3 12" fill="none" stroke="#1A1410" stroke-width="2.6" stroke-linecap="round"/></g>
+  <path d="M70.5 26 h7 v94 h-7 Z" fill="#1A1410"/>
+  <path d="M64 117 L74 134 L84 117 Z" fill="#1A1410"/>
+  <circle cx="74" cy="122" r="2.2" fill="#FDD58F"/>
+</g></svg>

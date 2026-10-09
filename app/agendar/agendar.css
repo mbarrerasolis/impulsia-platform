@@ -1,0 +1,17 @@
+/* Selector de horarios de /agendar, sobre el sistema .lp de la landing. */
+.lp .booking-days,
+.lp .booking-times { display: flex; flex-wrap: wrap; gap: 8px; margin: 14px 0; }
+.lp .booking-days { padding-bottom: 14px; border-bottom: 1px solid var(--lp-line); }
+.lp .booking-chip {
+  min-height: 44px; padding: 8px 14px; border: 2px solid var(--lp-ink); border-radius: 999px;
+  background: var(--lp-white); color: var(--lp-ink); font: inherit; font-weight: 700; cursor: pointer;
+}
+.lp .booking-chip::first-letter { text-transform: uppercase; }
+.lp .booking-chip:hover { background: var(--lp-paper); }
+.lp .booking-chip:focus-visible { outline: 3px solid var(--lp-teal); outline-offset: 2px; }
+.lp .booking-chip.is-active { background: var(--lp-ink); color: var(--lp-paper); }
+.lp .booking-chip.is-selected { background: var(--lp-lime); box-shadow: 3px 4px 0 var(--lp-ink); }
+.lp .booking-times .booking-chip { min-width: 84px; font-variant-numeric: tabular-nums; }
+.lp .booking-picked { margin: 4px 0 0; }
+.lp .booking-loading { display: flex; align-items: center; gap: 8px; }
+.lp .form-step + .form-step { margin-top: 28px; }

@@ -1,0 +1,272 @@
+{
+  "schemaVersion": 1,
+  "slug": "impulsia",
+  "brand": {
+    "name": "ImpulsIA",
+    "legalName": "IMPULSIA LAB SpA",
+    "taxId": "78.519.493-4",
+    "tagline": "Automatización, integraciones e IA para empresas que quieren avanzar.",
+    "description": "Automatizamos procesos, integramos sistemas y aplicamos IA con soluciones de alcance claro.",
+    "seoTitle": "ImpulsIA | Automatización, CRM e IA para pymes en Chile",
+    "seoDescription": "Asistente de IA en WhatsApp, CRM, integraciones con tu ERP y procesos automáticos para pymes chilenas. Alcance claro, precio transparente y diagnóstico gratis.",
+    "contactEmail": "contacto@impulsialabs.cl",
+    "heroEyebrow": "Ventas, CRM e IA para pymes en Chile",
+    "heroTitle": "Que ningún cliente",
+    "heroHighlight": "se quede sin respuesta.",
+    "heroDescription": "Conectamos tus anuncios, WhatsApp, CRM y ERP. Un asistente con IA atiende al instante, registra cada oportunidad y agenda; tu equipo se dedica a cerrar. Y lo que hoy se copia a mano, se hace solo.",
+    "whatsappMessage": "Hola, quiero evaluar una automatización para mi empresa.",
+    "primaryColor": "#0f766e",
+    "primaryDarkColor": "#0b514d",
+    "accentColor": "#b8f74f",
+    "darkSurfaceColor": "#102e2f",
+    "social": {
+      "instagram": "https://www.instagram.com/impulsialabs/",
+      "facebook": "https://www.facebook.com/profile.php?id=61594964581548",
+      "linkedin": "https://www.linkedin.com/company/impulsialabs/"
+    }
+  },
+  "commerce": { "locale": "es-CL", "currency": "CLP" },
+  "business": { "model": "b2b", "offering": "services" },
+  "modules": { "quotes": true, "subscriptions": true, "clientPortal": true, "whatsapp": true, "meetings": true, "store": false, "erp": false, "sectorLandings": ["salud", "comida"] },
+  "pricing": {
+    "version": "2026-09-v1",
+    "effectiveFrom": "2026-09-01",
+    "dayRate": 200000,
+    "minimumImplementation": 200000,
+    "minimumMaintenance": 65000,
+    "roundingMultiple": 1000,
+    "complexityFactors": { "standard": 1, "medium": 1.2, "high": 1.5, "research": 1.75, "advanced_research": 2 },
+    "maintenanceBrackets": [
+      { "upTo": 400000, "ratePercent": 20, "floor": 65000 },
+      { "upTo": 1000000, "ratePercent": 17.5, "floor": 80000 },
+      { "upTo": 2000000, "ratePercent": 15, "floor": 175000 },
+      { "upTo": 4000000, "ratePercent": 12, "floor": 300000 },
+      { "upTo": null, "ratePercent": 10, "floor": 480000 }
+    ],
+    "expansionDiscountTiers": [
+      { "fromSolution": 1, "discountPercent": 0 },
+      { "fromSolution": 2, "discountPercent": 25 },
+      { "fromSolution": 3, "discountPercent": 30 },
+      { "fromSolution": 4, "discountPercent": 35 },
+      { "fromSolution": 5, "discountPercent": 40 }
+    ]
+  },
+  "catalog": [
+    { "key": "erp-ecommerce", "name": "Sincronización ERP + ecommerce", "category": "Integraciones", "description": "Sincroniza pedidos, stock y estados.", "defaultDays": 4, "defaultComplexity": "medium" },
+    { "key": "payment-reconciliation", "name": "Conciliación automática", "category": "Finanzas", "description": "Compara pagos, documentos y movimientos.", "defaultDays": 5, "defaultComplexity": "high" },
+    { "key": "daily-report", "name": "Reporte operativo diario", "category": "Datos", "description": "Consolida y distribuye indicadores.", "defaultDays": 2, "defaultComplexity": "standard" }
+  ],
+  "landing": {
+    "manifesto": {
+      "lead": "No vendemos agentes.",
+      "statement": "Vendemos ecosistemas inteligentes adaptados a tu necesidad y tu empresa.",
+      "highlight": "ecosistemas inteligentes",
+      "text": "El asistente es solo una pieza. Lo que cambia tu negocio es que tus anuncios, conversaciones, CRM y ERP trabajen juntos, con tus reglas."
+    },
+    "salesCycle": {
+      "title": "Del anuncio a la venta, sin pasar nada a mano.",
+      "caption": "Cada paso deja registro en el siguiente: el anuncio que trajo al cliente, la conversación, la cotización y la venta. Así sabes qué campaña vende de verdad y dónde invertir el próximo peso.",
+      "centerLines": [
+        "Cada venta",
+        "mejora el",
+        "próximo anuncio"
+      ],
+      "steps": [
+        {
+          "label": "Anuncio",
+          "detail": "Instagram, Google o Meta",
+          "text": "El cliente llega desde tu anuncio o tu web, y queda guardado de qué campaña viene.",
+          "icon": "ad"
+        },
+        {
+          "label": "WhatsApp",
+          "detail": "respuesta al instante",
+          "text": "El asistente responde a cualquier hora, resuelve dudas con tu información y califica el interés.",
+          "icon": "chat"
+        },
+        {
+          "label": "CRM",
+          "detail": "origen y temperatura",
+          "text": "Cada contacto queda en el CRM con su etapa, su temperatura y la próxima acción.",
+          "icon": "crm"
+        },
+        {
+          "label": "Reunión o cotización",
+          "detail": "en tu calendario",
+          "text": "Agenda en tu Google Calendar o arma la cotización con tu lista de precios vigente.",
+          "icon": "calendar"
+        },
+        {
+          "label": "Venta en tu ERP",
+          "detail": "pedido, stock y documento",
+          "text": "El pedido entra a tu ERP sin volver a escribirlo: stock, documento y despacho.",
+          "icon": "erp"
+        },
+        {
+          "label": "Resultados",
+          "detail": "por campaña",
+          "text": "Ves cuánto costó y cuánto vendió cada campaña, con costo por lead y por venta.",
+          "icon": "chart"
+        }
+      ]
+    },
+    "assistantDemo": {
+      "eyebrow": "El asistente de ventas",
+      "title": "Atiende como tu mejor vendedor, con tus reglas.",
+      "description": "Responde en WhatsApp con la información de tu negocio, no con lo que se le ocurre. Lo que excede sus permisos lo decide una persona de tu equipo, y cada conversación queda en el CRM.",
+      "exchanges": [
+        {
+          "from": "customer",
+          "text": "Hola, vi su anuncio. ¿Despachan a regiones? Necesito precio por 20 cajas.",
+          "action": "Registra el contacto en el CRM",
+          "actionDetail": "Con su origen: anuncio de Instagram, campaña de octubre."
+        },
+        {
+          "from": "assistant",
+          "text": "¡Hola! Sí, despachamos a todo Chile. Te preparo la cotización por 20 cajas. ¿A nombre de qué empresa la dejo?",
+          "action": "Cotiza con tu lista de precios",
+          "actionDetail": "El precio sale del sistema. El asistente no lo puede cambiar."
+        },
+        {
+          "from": "customer",
+          "text": "Comercial Los Aromos. ¿Me pueden hacer un 10% más?",
+          "action": "Deriva el descuento a tu equipo",
+          "actionDetail": "Supera la regla que definiste: queda esperando tu aprobación."
+        },
+        {
+          "from": "assistant",
+          "text": "Lo consulto con el equipo y te confirmo hoy. ¿Te acomoda una llamada mañana a las 10:00?",
+          "action": "Agenda y marca el lead como caliente",
+          "actionDetail": "La reunión queda en tu Google Calendar con el enlace de Meet."
+        }
+      ],
+      "canTitle": "Lo que hace",
+      "can": [
+        "Responde al instante, también de noche y en fin de semana",
+        "Califica el interés y registra cada lead en el CRM",
+        "Agenda reuniones en tu calendario",
+        "Cotiza con tus precios vigentes",
+        "Avisa a tu equipo cuando un cliente está listo para comprar"
+      ],
+      "cannotTitle": "Lo que nunca hace",
+      "cannot": [
+        "Inventar precios, stock ni plazos",
+        "Aprobar descuentos fuera de tus reglas",
+        "Negar que es un asistente si se lo preguntan",
+        "Responder sin dejar registro de la conversación"
+      ]
+    },
+    "beforeAfter": {
+      "eyebrow": "Qué cambia",
+      "title": "La misma venta, antes y después.",
+      "beforeLabel": "Hoy",
+      "afterLabel": "Con ImpulsIA",
+      "rows": [
+        {
+          "before": "Los mensajes se responden cuando alguien se desocupa.",
+          "beforeNote": "De noche y en fin de semana se pierden clientes.",
+          "after": "Respuesta al instante, a cualquier hora."
+        },
+        {
+          "before": "Los contactos viven en el teléfono de cada vendedor.",
+          "beforeNote": "Si el vendedor se va, se van con él.",
+          "after": "Cada lead en el CRM, con su origen, etapa y próxima acción."
+        },
+        {
+          "before": "Se cotiza copiando precios de una planilla.",
+          "beforeNote": "A veces la lista de la semana pasada.",
+          "after": "Cotización con la lista vigente, en minutos."
+        },
+        {
+          "before": "El pedido se vuelve a escribir en el ERP.",
+          "beforeNote": "Dos o tres veces, con errores.",
+          "after": "El pedido llega solo al ERP, con stock y documento."
+        },
+        {
+          "before": "A fin de mes: ¿sirvió la publicidad?",
+          "beforeNote": "Nadie lo puede responder con números.",
+          "after": "Costo por lead y por venta de cada campaña."
+        }
+      ]
+    },
+    "primaryCtaLabel": "Analizar mi proceso",
+    "secondaryCtaLabel": "Agendar diagnóstico",
+    "secondaryCtaTarget": "diagnostic",
+    "trustItems": ["Desde {minimumImplementation}", "Alcance transparente", "Crece módulo a módulo"],
+    "audienceLabels": ["ERP", "CRM", "Ecommerce", "Webservices", "Inteligencia artificial"],
+    "missionEyebrow": "Nuestra misión",
+    "missionTitle": "Menos tiempo, menos costos, más rentabilidad para tu pyme.",
+    "missionDescription": "Creemos que la automatización y la IA no deberían ser un privilegio de las grandes empresas. Construimos soluciones a tu alcance, con resultados medibles desde el primer módulo.",
+    "benefits": [
+      { "title": "Reducimos el tiempo", "text": "Automatizamos las tareas repetitivas que hoy consumen las horas de tu equipo, para que las dediquen a hacer crecer el negocio." },
+      { "title": "Reducimos los costos", "text": "Integraciones y automatizaciones de alcance acotado, con precio y reglas transparentes desde el primer día." },
+      { "title": "Aumentamos tu rentabilidad", "text": "Cada solución se diseña y se mide en horas ahorradas y capacidad liberada: resultado real, no promesas." }
+    ],
+    "solutionsEyebrow": "Qué resolvemos",
+    "solutionsTitle": "Menos fricción operativa. Más negocio.",
+    "solutionsDescription": "Partimos por el proceso que hoy más te frena y construimos una solución acotada, medible y preparada para crecer.",
+    "capabilities": [
+      { "title": "Procesos que se ejecutan solos", "text": "Conectamos tareas repetitivas para eliminar traspasos manuales, errores y esperas innecesarias.", "tag": "Automatización" },
+      { "title": "Sistemas que por fin conversan", "text": "Integramos ERP, CRM, ecommerce y herramientas internas mediante APIs y webservices oficiales.", "tag": "Integraciones" },
+      { "title": "IA aplicada a trabajo real", "text": "Clasificación, extracción y asistencia donde produce un ahorro medible, siempre con control humano.", "tag": "Inteligencia artificial" },
+      { "title": "Datos ordenados y disponibles", "text": "Centralizamos información crítica para que tu equipo decida con una fuente confiable.", "tag": "Datos" },
+      { "title": "Resultados visibles", "text": "Diseñamos cada solución alrededor de horas ahorradas, capacidad liberada y rentabilidad.", "tag": "Eficiencia" },
+      { "title": "Seguridad desde el diseño", "text": "Permisos, auditoría y manejo seguro de credenciales son parte del producto, no un agregado.", "tag": "Confianza" }
+    ],
+    "proofPanel": {
+      "enabled": true,
+      "ariaLabel": "Vista de ejemplo del centro de operaciones",
+      "eyebrow": "Centro de operaciones",
+      "title": "Resumen de automatizaciones",
+      "metrics": [
+        { "label": "Horas recuperadas", "value": 148, "suffix": " h", "thousands": false, "accent": "lime" },
+        { "label": "Procesos este mes", "value": 2840, "suffix": "", "thousands": true, "accent": "azure" },
+        { "label": "Errores evitados", "value": 97, "suffix": "%", "thousands": false, "accent": "violet" },
+        { "label": "Flujos activos", "value": 12, "suffix": "", "thousands": false, "accent": "orange" }
+      ],
+      "activities": [
+        { "name": "ERP → Facturación", "detail": "Hace 3 minutos", "status": "Activo" },
+        { "name": "Clasificador de solicitudes", "detail": "Hace 8 minutos", "status": "Activo" },
+        { "name": "Reporte diario automático", "detail": "Programado 18:00", "status": "Listo" }
+      ]
+    },
+    "productEyebrow": "El producto real",
+    "productTitle": "Así se ve tu operación, no una maqueta.",
+    "productDescription": "Estas son pantallas reales de la plataforma funcionando con datos de ejemplo: lo mismo que vas a usar tú.",
+    "floatingChat": {
+      "enabled": true,
+      "title": "WhatsApp · Automatizado",
+      "incoming": "Hola, ¿tienen hora para mañana?",
+      "outgoing": "Sí, tenemos 10:00 y 15:30.",
+      "status": "respondiendo solo..."
+    },
+    "caseStudyEyebrow": "Capacidad real",
+    "caseStudyTitle": "También construimos sistemas más profundos.",
+    "caseStudyDescription": "Un ejemplo real en producción con indicadores financieros y operación en vivo, construido a medida.",
+    "processEyebrow": "Cómo funciona",
+    "processTitle": "De un problema concreto a una mejora funcionando.",
+    "processDescription": "Sin proyectos eternos ni propuestas opacas. Avanzamos en bloques claros y comprobables.",
+    "processSteps": [
+      { "title": "Entendemos el cuello de botella", "text": "Mapeamos personas, sistemas, volumen y horas para encontrar la oportunidad de mayor impacto." },
+      { "title": "Cotizamos con reglas claras", "text": "Estimamos jornadas, complejidad, implementación y mantención. Los costos externos van separados." },
+      { "title": "Implementamos y expandimos", "text": "Medimos el resultado y agregamos nuevos módulos con descuentos progresivos por expansión." }
+    ],
+    "pricingEyebrow": "Precios transparentes",
+    "pricingTitle": "Empieza pequeño. Escala con confianza.",
+    "pricingBenefits": ["Mantención desde {minimumMaintenance} / mes", "Alcance y reglas de precio documentadas", "Servidores, mensajería y licencias siempre separados"],
+    "finalCtaTitle": "¿Qué proceso le quita más tiempo a tu equipo?",
+    "finalCtaDescription": "Cuéntanos cómo funciona hoy. Recibirás una evaluación preliminar, clara y sin compromiso.",
+    "diagnosticEyebrow": "Sin compromiso · Menos de 1 minuto",
+    "diagnosticTitle": "Encontremos la automatización con mayor impacto.",
+    "diagnosticDescription": "Déjanos tus datos y te contactamos. Los detalles del proceso los afinamos juntos en la conversación — no hace falta escribirlos todos aquí.",
+    "diagnosticMetaTitle": "Diagnóstico gratis de automatización",
+    "diagnosticMetaDescription": "Cuéntanos qué proceso quieres mejorar y recibe una evaluación preliminar, sin compromiso, de automatización, integraciones o IA para tu empresa."
+  },
+  "productShowcase": [
+    { "key": "dashboard", "imagePath": "/screenshots/dashboard.jpg", "pathLabel": "/admin/dashboard", "alt": "Dashboard ejecutivo con MRR, pipeline comercial y alertas", "width": 1517, "height": 703 },
+    { "key": "accounts", "imagePath": "/screenshots/accounts.jpg", "pathLabel": "/admin/accounts", "alt": "Listado de cuentas con estado, industria y MRR", "width": 1517, "height": 703 },
+    { "key": "quote", "imagePath": "/screenshots/quote.jpg", "pathLabel": "/admin/quotes/new", "alt": "Cotizador con descuento de expansión aplicado en tiempo real", "width": 1517, "height": 703 },
+    { "key": "crm", "imagePath": "/screenshots/crm.jpg", "pathLabel": "/admin/crm", "alt": "Pipeline de CRM con leads, etapa y score de oportunidades", "width": 1517, "height": 703 }
+  ],
+  "caseStudies": []
+}
